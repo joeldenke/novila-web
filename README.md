@@ -1,8 +1,7 @@
 # novila.app
 
 The website for Novila: the home page, the privacy policy and the terms of use, in English and Swedish. It lives
-here, in a public repository, because GitHub Pages can't publish from the private app repository
-(`joeldenke/Novila`) on the current plan.
+here, in its own repository, because the app repository (`joeldenke/Novila`) is private.
 
 ```sh
 python3 tools/site/build_site.py   # builds build/site, standard library only
