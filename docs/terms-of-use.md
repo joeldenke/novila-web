@@ -13,7 +13,7 @@ läsa texten innan den publiceras.
 
 ## English
 
-*Updated 24 October 2026*
+*Updated 1 November 2026*
 
 These terms say what Novila is, what you can expect of it and what it is not. You don't have to accept anything to use the app, and nothing here limits the rights you have by law as a consumer.
 
@@ -47,13 +47,13 @@ If these terms change, the new version is published on this page, with its date 
 
 ### Law and questions
 
-Swedish law applies. Questions go to the developer's contact address on Novila's page in Google Play. As a consumer you can also turn to the National Board for Consumer Disputes (ARN).
+Swedish law applies. Novila is developed by Joel Denke in Sweden. Questions go to novila@joeldenke.se. As a consumer you can also turn to the National Board for Consumer Disputes (ARN).
 
 ---
 
 ## Svenska
 
-*Uppdaterad 24 oktober 2026*
+*Uppdaterad 1 november 2026*
 
 Villkoren säger vad Novila är, vad du kan förvänta dig av appen och vad den inte är. Du behöver inte godkänna något för att använda appen, och inget här begränsar de rättigheter du har enligt lag som konsument.
 
@@ -87,4 +87,4 @@ Appen, dess texter, illustrationer och övningar tillhör utvecklaren. Novila an
 
 ### Lag och frågor
 
-Svensk lag gäller. Frågor skickas till utvecklarens kontaktadress på Novilas sida i Google Play. Som konsument kan du också vända dig till Allmänna reklamationsnämnden (ARN).
+Svensk lag gäller. Novila utvecklas av Joel Denke i Sverige. Frågor skickas till novila@joeldenke.se. Som konsument kan du också vända dig till Allmänna reklamationsnämnden (ARN).

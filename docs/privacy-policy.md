@@ -10,7 +10,7 @@ och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för 
 
 ## English
 
-*Updated 24 October 2026*
+*Updated 1 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -74,15 +74,22 @@ what Novila has on the phone.
 
 Novila is installed through Google Play, and Health Connect is part of Android made by Google. They follow [Google's privacy policy](https://policies.google.com/privacy). If you share usage and
 diagnostics with Google, Google Play may give the developer crash reports, which do not contain what you log in
-Novila.
+Novila. When Novila opens, it asks Google Play whether a newer version is available, and after a finished workout it
+may ask Google Play to show its rating dialog. Google Play handles both; Novila sends nothing itself and never learns
+whether you wrote a review.
 
 ### For adults
 
 Novila is made for adults and is not directed at children.
 
+### Who is behind Novila
+
+Novila is developed by Joel Denke in Sweden, who is responsible for this policy and for the app. Since your data
+stays on your phone, the developer never holds any of it.
+
 ### Questions and changes
 
-Questions about privacy go to the developer's contact address on Novila's page in Google Play. You can also
+Questions about privacy go to novila@joeldenke.se. You can also
 complain to the Swedish Authority for Privacy Protection ([IMY](https://www.imy.se)). If this policy changes, the
 new version is published on this page, with its date above.
 
@@ -90,7 +97,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 24 oktober 2026*
+*Uppdaterad 1 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -156,13 +163,21 @@ ersätts det Novila har i telefonen.
 Novila installeras via Google Play, och Health Connect är en del av Android som Google gör.
 De följer [Googles integritetspolicy](https://policies.google.com/privacy?hl=sv). Delar du användning och
 diagnostik med Google kan Google Play ge utvecklaren kraschrapporter, som inte innehåller det du loggar i Novila.
+När Novila öppnas frågar appen Google Play om det finns en nyare version, och efter ett avslutat pass kan den be
+Google Play visa sin dialog för betyg. Google Play sköter båda; Novila skickar inget själv och får aldrig veta om du
+skrev en recension.
 
 ### För vuxna
 
 Novila är gjord för vuxna och riktar sig inte till barn.
 
+### Vem som står bakom Novila
+
+Novila utvecklas av Joel Denke i Sverige, som ansvarar för den här policyn och för appen. Eftersom din data stannar
+i din telefon har utvecklaren aldrig något av den.
+
 ### Frågor och ändringar
 
-Frågor om integritet skickas till utvecklarens kontaktadress på Novilas sida i Google Play. Du kan också klaga hos
+Frågor om integritet skickas till novila@joeldenke.se. Du kan också klaga hos
 Integritetsskyddsmyndigheten ([IMY](https://www.imy.se)). Ändras policyn publiceras den nya versionen på
 den här sidan, med datum ovan.
