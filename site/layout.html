@@ -20,7 +20,10 @@
   <header class="top">
     <div class="top-inner">
       <a class="brand" href="/{{home}}"><img src="/icon.png" alt="" width="28" height="28"><span>Novila</span></a>
-      <a class="language" href="/{{switch}}" hreflang="{{switch_lang}}" lang="{{switch_lang}}">{{switch_label}}</a>
+      <nav class="top-links">
+        <a href="/{{faq}}">{{faq_label}}</a>
+        <a class="language" href="/{{switch}}" hreflang="{{switch_lang}}" lang="{{switch_lang}}">{{switch_label}}</a>
+      </nav>
     </div>
   </header>
   <main id="content">
@@ -29,8 +32,10 @@
   <footer class="bottom">
     <nav>
       <a href="/{{home}}">{{home_label}}</a>
+      <a href="/{{faq}}">{{faq_label}}</a>
       <a href="/{{privacy}}">{{privacy_label}}</a>
       <a href="/{{terms}}">{{terms_label}}</a>
+      <a href="mailto:{{contact}}">{{contact_label}}: {{contact}}</a>
     </nav>
     <p>{{footer}}</p>
   </footer>
