@@ -10,7 +10,7 @@ och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för 
 
 ## English
 
-*Updated 1 November 2026*
+*Updated 8 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -82,9 +82,17 @@ whether you wrote a review.
 
 Novila is made for adults and is not directed at children.
 
+### Becoming a tester
+
+Before Novila is on Google Play, you can sign up to test it with the button *Become a tester* on novila.app. It opens
+a form in Google Forms, where you sign in with your Google account; the developer then gets that account's email
+address and your answers. The address is used only to invite you to the test on Google Play and to email you about
+it, is shared with no one but Google Play's tester list, and is deleted when the test is over. Ask, and it is
+deleted sooner. Google Forms follows [Google's privacy policy](https://policies.google.com/privacy).
+
 ### Who is behind Novila
 
-Novila is developed by Joel Denke in Sweden, who is responsible for this policy and for the app. Since your data
+Novila is developed by Joel Denke in Sweden, who is responsible for this policy and for the app. Since what you log
 stays on your phone, the developer never holds any of it.
 
 ### Questions and changes
@@ -97,7 +105,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 1 november 2026*
+*Uppdaterad 8 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -171,10 +179,18 @@ skrev en recension.
 
 Novila är gjord för vuxna och riktar sig inte till barn.
 
+### Bli testare
+
+Innan Novila finns på Google Play kan du anmäla dig som testare med knappen *Bli testare* på novila.app. Den öppnar
+ett formulär i Google Formulär, där du loggar in med ditt Google-konto; utvecklaren får då kontots e-postadress och
+dina svar. Adressen används bara för att bjuda in dig till testet på Google Play och mejla dig om det, delas inte med
+någon utom testlistan i Google Play och raderas när testet är slut. Hör av dig, så raderas den tidigare. Google
+Formulär följer [Googles integritetspolicy](https://policies.google.com/privacy?hl=sv).
+
 ### Vem som står bakom Novila
 
-Novila utvecklas av Joel Denke i Sverige, som ansvarar för den här policyn och för appen. Eftersom din data stannar
-i din telefon har utvecklaren aldrig något av den.
+Novila utvecklas av Joel Denke i Sverige, som ansvarar för den här policyn och för appen. Eftersom det du loggar
+stannar i din telefon har utvecklaren aldrig något av det.
 
 ### Frågor och ändringar
 
