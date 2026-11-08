@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Builds Novila's website (novila.app) into build/site, which pages.yml publishes with GitHub Pages.
 
-The site has a home page, the privacy policy and the terms of use, in English (at the root) and Swedish (under /sv).
-The home pages are written by hand in site/; the policy and the terms are made from docs/privacy-policy.md and
-docs/terms-of-use.md, the only copy of each: the app links here instead of showing them. The scenes are the
-site's own (site/images); the fonts are copied from the app, and the phones, the tablet and the foldable show the
-app's own screens from its screenshot references, so the site looks like the app.
+The site has a home page, questions and answers, the privacy policy and the terms of use, in English (at the root) and
+Swedish (under /sv). The home pages and the questions are written by hand in site/; the policy and the terms are made
+from docs/privacy-policy.md and docs/terms-of-use.md, the only copy of each: the app links here instead of showing
+them. The scenes are the site's own (site/images); the fonts are copied from the app, and the phones, the tablet and
+the foldable show the app's own screens from its screenshot references, so the site looks like the app.
 
     python3 tools/site/build_site.py
 
@@ -15,6 +15,7 @@ build instead of reaching the page.
 """
 
 import html
+import json
 import re
 import shutil
 import sys
@@ -52,6 +53,9 @@ LANGUAGES = {
         "privacy": "Privacy policy",
         "terms": "Terms of use",
         "home": "Home",
+        "faq": "Questions",
+        "faq_title": "Questions and answers",
+        "contact": "Contact",
         "footer": "General advice on training, sleep and food. Not a medical device. "
         "This site has no cookies and no analytics.",
         "skip": "Skip to content",
@@ -63,6 +67,9 @@ LANGUAGES = {
         "privacy": "Integritetspolicy",
         "terms": "Användarvillkor",
         "home": "Start",
+        "faq": "Frågor",
+        "faq_title": "Frågor och svar",
+        "contact": "Kontakt",
         "footer": "Allmänna råd om träning, sömn och kost. Inte en medicinteknisk produkt. "
         "Den här sidan har inga kakor och inga analysverktyg.",
         "skip": "Hoppa till innehållet",
@@ -73,9 +80,12 @@ LANGUAGES = {
 # so never move one.
 PAGES = {
     "home": {"en": "", "sv": "sv/"},
+    "faq": {"en": "faq/", "sv": "sv/fragor/"},
     "privacy": {"en": "privacy/", "sv": "sv/integritet/"},
     "terms": {"en": "terms/", "sv": "sv/villkor/"},
 }
+
+CONTACT = "novila@joeldenke.se"
 
 DOCUMENTS = {"privacy": ROOT / "docs" / "privacy-policy.md", "terms": ROOT / "docs" / "terms-of-use.md"}
 
@@ -174,6 +184,10 @@ def render(page, lang, title, description, body):
         "privacy_label": strings["privacy"],
         "terms": PAGES["terms"][lang],
         "terms_label": strings["terms"],
+        "faq": PAGES["faq"][lang],
+        "faq_label": strings["faq"],
+        "contact": CONTACT,
+        "contact_label": strings["contact"],
         "footer": html.escape(strings["footer"]),
         "skip": strings["skip"],
         "page": page,
@@ -195,12 +209,49 @@ def render(page, lang, title, description, body):
     target.write_text(text, encoding="utf-8")
 
 
-def home(lang):
-    text = (SITE / f"home.{lang}.html").read_text(encoding="utf-8")
+def handwritten(name, lang):
+    """A page written by hand in site/: its description (from the first line's comment) and its body."""
+    text = (SITE / f"{name}.{lang}.html").read_text(encoding="utf-8")
     match = re.match(r"<!--\s*description:\s*(.+?)\s*-->\n", text)
     if not match:
-        sys.exit(f"site/home.{lang}.html must start with <!-- description: ... -->")
-    render("home", lang, "Novila", match.group(1), text[match.end():])
+        sys.exit(f"site/{name}.{lang}.html must start with <!-- description: ... -->")
+    return match.group(1), text[match.end():]
+
+
+def home(lang):
+    description, body = handwritten("home", lang)
+    render("home", lang, "Novila", description, body)
+
+
+FAQ_ITEM = re.compile(
+    r'<section class="faq-item" id="[a-z0-9-]+">\s*<h3>(.+?)</h3>\s*<div class="faq-answer">(.+?)</div>\s*</section>',
+    re.S,
+)
+
+
+def plain(fragment):
+    """The text of an HTML fragment, for the structured data search engines read."""
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", fragment))).strip().replace(" .", ".")
+
+
+def faq(lang):
+    """The questions and answers, with the same questions as FAQPage structured data, so nothing is said twice."""
+    description, body = handwritten("faq", lang)
+    items = FAQ_ITEM.findall(body)
+    if len(items) != body.count('class="faq-item"'):
+        sys.exit(f"site/faq.{lang}.html has a question the builder can't read; see FAQ_ITEM")
+    data = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "inLanguage": lang,
+        "mainEntity": [
+            {"@type": "Question", "name": plain(q), "acceptedAnswer": {"@type": "Answer", "text": plain(a)}}
+            for q, a in items
+        ],
+    }
+    data_json = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+    script = f'<script type="application/ld+json">{data_json}</script>'
+    render("faq", lang, LANGUAGES[lang]["faq_title"], description, body + "\n" + script)
 
 
 def document(page, lang):
@@ -217,6 +268,7 @@ def main():
     OUT.mkdir(parents=True)
     for lang in LANGUAGES:
         home(lang)
+        faq(lang)
         document("privacy", lang)
         document("terms", lang)
 
