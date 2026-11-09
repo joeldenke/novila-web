@@ -10,7 +10,7 @@ och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för 
 
 ## English
 
-*Updated 8 November 2026*
+*Updated 9 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -22,7 +22,8 @@ affected a night, such as your period), food (with the meals you write in your o
 drinks and workouts, with the repetitions you did and effort and pain after a session; your answers to the training and
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals,
-reminders and settings. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
+reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
+the first week lighter after a break; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
 Novila works without a name or an account.
 
 ### Where it is kept
@@ -105,7 +106,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 8 november 2026*
+*Uppdaterad 9 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -116,7 +117,9 @@ Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, di
 till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning), dryck och dina
 pass, med repetitionerna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
-och symtomen du loggar, som raderas när du stänger av den, och dina mål, påminnelser och inställningar. Om du tillåter
+och symtomen du loggar, som raderas när du stänger av den, och dina mål, påminnelser och inställningar. Novila minns
+också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
+ett uppehåll; aldrig hur ofta eller hur länge du använder den. Om du tillåter
 det även det Novila läser från Health Connect, se nedan. Allt är frivilligt, och Novila fungerar utan namn och utan
 konto.
 
