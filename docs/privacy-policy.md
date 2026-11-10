@@ -22,7 +22,9 @@ affected a night, such as your period), food (with the meals you write in your o
 drinks and workouts, with the repetitions you did and effort and pain after a session; your answers to the training and
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals,
-the habits you choose to keep (with the days you kept them), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
+the habits you choose to keep (with the days you kept them), the experiments you start (the question, which
+days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
+time and never saved), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
 the first week lighter after a break; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
 Novila works without a name or an account.
 
@@ -120,7 +122,8 @@ till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmä
 pass, med repetitionerna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål, vanorna du väljer att behålla (med dagarna
-du höll dem), påminnelser och inställningar. Novila minns
+du höll dem), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
+följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
 ett uppehåll; aldrig hur ofta eller hur länge du använder den. Om du tillåter
 det även det Novila läser från Health Connect, se nedan. Allt är frivilligt, och Novila fungerar utan namn och utan
