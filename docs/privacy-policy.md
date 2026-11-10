@@ -10,7 +10,7 @@ och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för 
 
 ## English
 
-*Updated 9 November 2026*
+*Updated 10 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -48,13 +48,15 @@ off access at any time in Health Connect.
 Novila has no ads, no analytics and no tracking. Your data is not sold, not shared with anyone and not used for
 advertising. The developer never receives it.
 
-### Notifications, the widget and the tile
+### Notifications, the widget and the tiles
 
 Reminders you turn on show a short notification, and during a workout a notification shows the time left of a rest
-and the next set. The widget, if you add it, shows today's balance, sleep, food and
-water on your home screen. The Quick Settings tile, if you add it, shows today's glasses of water, but not on the lock
-screen. Anyone who sees your phone can see them. You can turn reminders off and remove the widget and the tile at any
-time.
+and the next set. A habit's reminder shows the habit's name and how far the day is (such as "4 of 8 glasses"), with
+buttons that log it without opening the app; on the lock screen it only says that it is about habits. The widget, if
+you add it, shows today's balance, sleep, food and water on your home screen. The Quick Settings tiles, if you add
+them, show today's glasses of water and, for a habit you tie to a tile, its name and how far the day is, but never the
+day's count on the lock screen. Anyone who sees your phone can see them. You can turn reminders off and remove the
+widget and the tiles at any time.
 
 ### You decide
 
@@ -106,7 +108,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 9 november 2026*
+*Uppdaterad 10 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -147,13 +149,15 @@ när som helst stänga av åtkomsten i Health Connect.
 Novila har ingen reklam, inga analysverktyg och ingen spårning. Din data säljs inte, delas inte med någon och
 används inte för reklam. Utvecklaren får aldrig del av den.
 
-### Notiser, widgeten och rutan
+### Notiser, widgeten och rutorna
 
-Påminnelser du slår på visar en kort notis, och under ett pass visar en notis tiden kvar av vilan och nästa set.
-Widgeten visar, om du lägger till den, dagens balans, sömn, kost och
-vatten på hemskärmen. Rutan i snabbinställningarna visar, om du lägger till den, dagens glas vatten, men inte på
-låsskärmen. Den som ser din telefon kan se dem. Du kan när som helst stänga av påminnelserna och ta bort widgeten och
-rutan.
+Påminnelser du slår på visar en kort notis, och under ett pass visar en notis tiden kvar av vilan och nästa set. En
+vanas påminnelse visar vanans namn och hur långt dagen har kommit (till exempel "4 av 8 glas"), med knappar som
+loggar den utan att öppna appen; på låsskärmen står bara att den gäller vanor. Widgeten visar, om du lägger till den,
+dagens balans, sömn, kost och vatten på hemskärmen. Rutorna i snabbinställningarna visar, om du lägger till dem,
+dagens glas vatten och, för en vana du kopplar till en ruta, dess namn och hur långt dagen har kommit, men aldrig
+dagens antal på låsskärmen. Den som ser din telefon kan se dem. Du kan när som helst stänga av påminnelserna och ta
+bort widgeten och rutorna.
 
 ### Du bestämmer
 
