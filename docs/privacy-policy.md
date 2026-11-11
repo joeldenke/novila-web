@@ -10,7 +10,7 @@ och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för 
 
 ## English
 
-*Updated 10 November 2026*
+*Updated 11 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -22,7 +22,8 @@ affected a night, such as your period), food (with the meals you write in your o
 drinks and workouts, with the repetitions you did and effort and pain after a session; your answers to the training and
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals,
-the habits you choose to keep (with the days you kept them), the experiments you start (the question, which
+the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
+the ones you let go), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
 time and never saved), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
 the first week lighter after a break; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
@@ -55,7 +56,8 @@ advertising. The developer never receives it.
 Reminders you turn on show a short notification, and during a workout a notification shows the time left of a rest
 and the next set. A habit's reminder shows the habit's name and how far the day is (such as "4 of 8 glasses"), with
 buttons that log it without opening the app; on the lock screen it only says that it is about habits. The widget, if
-you add it, shows today's balance, sleep, food and water on your home screen. The Quick Settings tiles, if you add
+you add it, shows today's balance, sleep, food and water on your home screen, with a button that logs a glass of
+water. The Quick Settings tiles, if you add
 them, show today's glasses of water and, for a habit you tie to a tile, its name and how far the day is, but never the
 day's count on the lock screen. Anyone who sees your phone can see them. You can turn reminders off and remove the
 widget and the tiles at any time.
@@ -110,7 +112,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 10 november 2026*
+*Uppdaterad 11 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -122,7 +124,7 @@ till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmä
 pass, med repetitionerna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål, vanorna du väljer att behålla (med dagarna
-du höll dem), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
+du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
 följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
 ett uppehåll; aldrig hur ofta eller hur länge du använder den. Om du tillåter
@@ -157,7 +159,7 @@ används inte för reklam. Utvecklaren får aldrig del av den.
 Påminnelser du slår på visar en kort notis, och under ett pass visar en notis tiden kvar av vilan och nästa set. En
 vanas påminnelse visar vanans namn och hur långt dagen har kommit (till exempel "4 av 8 glas"), med knappar som
 loggar den utan att öppna appen; på låsskärmen står bara att den gäller vanor. Widgeten visar, om du lägger till den,
-dagens balans, sömn, kost och vatten på hemskärmen. Rutorna i snabbinställningarna visar, om du lägger till dem,
+dagens balans, sömn, kost och vatten på hemskärmen, med en knapp som loggar ett glas vatten. Rutorna i snabbinställningarna visar, om du lägger till dem,
 dagens glas vatten och, för en vana du kopplar till en ruta, dess namn och hur långt dagen har kommit, men aldrig
 dagens antal på låsskärmen. Den som ser din telefon kan se dem. Du kan när som helst stänga av påminnelserna och ta
 bort widgeten och rutorna.
