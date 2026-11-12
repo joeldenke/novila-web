@@ -36,6 +36,15 @@ and the app has no access to the internet, so nothing you log can be sent anywhe
 Android's backup and of transfers to a new phone. The links to this policy and the terms of use in Settings open
 novila.app in your browser; the site has no cookies, analytics or scripts.
 
+### Reading a page from your notebook
+
+If you use *Read from paper*, you photograph a page where you have written down your days. Google's document scanner
+(part of Google Play services) takes the picture and straightens it in its own screen, so Novila never gets access to
+the camera; you can also choose a photo you already have. Google's text recognition (ML Kit, also through Google Play
+services) reads the handwriting on your phone. The photo and the text are kept only in memory while you look over what
+was read, and are never saved, sent or added to your copy of your data. Only the logs you confirm are saved, like
+anything you log by hand.
+
 ### Health Connect
 
 If you allow it, Novila reads today's steps and active calories, your workouts from the last five weeks, your
@@ -138,6 +147,14 @@ server, och appen har ingen åtkomst till internet, så inget du loggar kan skic
 utanför Androids säkerhetskopiering och överföringar till en ny telefon. Länkarna till den här policyn och
 användarvillkoren under Inställningar öppnar novila.app i din webbläsare; sajten har inga kakor, analysverktyg eller
 skript.
+
+### Läsa en sida ur anteckningsboken
+
+Använder du *Läs från papper* fotograferar du en sida där du skrivit ner dina dagar. Googles dokumentskanner (en del av
+Google Play-tjänster) tar bilden och rätar upp den i sin egen vy, så Novila får aldrig tillgång till kameran; du kan
+också välja en bild du redan har. Googles textigenkänning (ML Kit, också via Google Play-tjänster) läser handstilen på
+telefonen. Bilden och texten finns bara i minnet medan du går igenom det som lästes, och sparas, skickas eller läggs
+aldrig i din kopia av dina data. Bara loggarna du bekräftar sparas, som allt du loggar för hand.
 
 ### Health Connect
 
