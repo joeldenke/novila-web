@@ -13,7 +13,7 @@ läsa texten innan den publiceras.
 
 ## English
 
-*Updated 1 November 2026*
+*Updated 12 November 2026*
 
 These terms say what Novila is, what you can expect of it and what it is not. You don't have to accept anything to use the app, and nothing here limits the rights you have by law as a consumer.
 
@@ -39,7 +39,7 @@ Novila is developed with care and tested, but it is free and given as it is: it 
 
 ### Rights
 
-The app, its texts, illustrations and exercises belong to the developer. Novila also uses open-source software under its own licenses, listed under Settings, Open source licenses.
+The app, its texts, illustrations and exercises belong to the developer. Novila also uses open-source software under its own licenses, listed under Settings, Open source licenses. The food names the meal log recognizes come from Livsmedelsverket's food database (the Swedish Food Agency, Livsmedelsdatabasen), used under Creative Commons Attribution 4.0 (CC BY 4.0); Novila uses only the names and food groups, and Livsmedelsverket does not endorse the app.
 
 ### Changes
 
@@ -53,7 +53,7 @@ Swedish law applies. Novila is developed by Joel Denke in Sweden. Questions go t
 
 ## Svenska
 
-*Uppdaterad 1 november 2026*
+*Uppdaterad 12 november 2026*
 
 Villkoren säger vad Novila är, vad du kan förvänta dig av appen och vad den inte är. Du behöver inte godkänna något för att använda appen, och inget här begränsar de rättigheter du har enligt lag som konsument.
 
@@ -79,7 +79,7 @@ Novila utvecklas med omsorg och testas, men den är gratis och ges som den är: 
 
 ### Rättigheter
 
-Appen, dess texter, illustrationer och övningar tillhör utvecklaren. Novila använder även öppen källkod under sina egna licenser, som finns under Inställningar, Öppna licenser.
+Appen, dess texter, illustrationer och övningar tillhör utvecklaren. Novila använder även öppen källkod under sina egna licenser, som finns under Inställningar, Öppna licenser. Livsmedelsnamnen som måltidsloggen känner igen kommer från Livsmedelsverkets livsmedelsdatabas, under Creative Commons Erkännande 4.0 (CC BY 4.0); Novila använder bara namnen och livsmedelsgrupperna, och Livsmedelsverket står inte bakom appen.
 
 ### Ändringar
 
