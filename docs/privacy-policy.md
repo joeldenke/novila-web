@@ -40,23 +40,9 @@ Novila works without a name or an account.
 ### Where it is kept
 
 Only on your phone, encrypted with a key from the phone's Android Keystore. Novila has no account and no server,
-and the app has no access to the internet, so Novila itself cannot send anything you log anywhere. (Google Play
-services may send Google diagnostics about the scanner and text recognition, see the next section; never what you log.)
-Novila's data is left out of
-Android's backup and of transfers to a new phone. The links to this policy and the terms of use in Settings open
+and the app has no access to the internet, so nothing you log can leave the phone through Novila. Novila's data is
+left out of Android's backup and of transfers to a new phone. The links to this policy and the terms of use in Settings open
 novila.app in your browser; the site has no cookies, analytics or scripts.
-
-### Reading a page from your notebook
-
-If you use *Read from paper*, you photograph a page where you have written down your days. Google's document scanner
-(part of Google Play services) takes the picture and straightens it in its own screen, so Novila never gets access to
-the camera; you can also choose a photo you already have. Google's text recognition (ML Kit, also through Google Play
-services) reads the handwriting on your phone. The photo and the text are kept only in memory while you look over what
-was read, and are never saved, sent or added to your copy of your data. Only the logs you confirm are saved, like
-anything you log by hand. Even though the reading happens on the phone, Google Play services may send Google
-diagnostics and usage data about the scanner and the text recognition (such as device and app information and how
-well they performed), as described in Google's ML Kit data disclosure and privacy policy. They never include the photo,
-the text that was read or anything you log, and Novila does not receive them.
 
 ### Health Connect
 
@@ -98,8 +84,7 @@ in Health Connect.
 
 What you log is kept on the phone until you change or delete it, use *Delete all data* or uninstall Novila. The days
 of your period and your symptoms are deleted when you turn off *Follow your cycle*. The copy of what was read from
-Health Connect is replaced at every read and removed when access is turned off or you delete your data. Photos and
-text from *Read from paper* are never saved. A tester's email address is deleted when the test is over.
+Health Connect is replaced at every read and removed when access is turned off or you delete your data. A tester's email address is deleted when the test is over.
 
 ### Why Novila may handle it
 
@@ -180,24 +165,10 @@ konto.
 ### Var det sparas
 
 Bara i din telefon, krypterat med en nyckel från telefonens Android Keystore. Novila har inget konto och ingen
-server, och appen har ingen åtkomst till internet, så Novila kan inte själv skicka något du loggar någonstans.
-(Google Play-tjänster kan skicka diagnostik till Google om skannern och textigenkänningen, se nästa avsnitt; aldrig
-det du loggar.) Novilas data lämnas
+server, och appen har ingen åtkomst till internet, så inget du loggar kan lämna telefonen genom Novila. Novilas data lämnas
 utanför Androids säkerhetskopiering och överföringar till en ny telefon. Länkarna till den här policyn och
 användarvillkoren under Inställningar öppnar novila.app i din webbläsare; sajten har inga kakor, analysverktyg eller
 skript.
-
-### Läsa en sida ur anteckningsboken
-
-Använder du *Läs från papper* fotograferar du en sida där du skrivit ner dina dagar. Googles dokumentskanner (en del av
-Google Play-tjänster) tar bilden och rätar upp den i sin egen vy, så Novila får aldrig tillgång till kameran; du kan
-också välja en bild du redan har. Googles textigenkänning (ML Kit, också via Google Play-tjänster) läser handstilen på
-telefonen. Bilden och texten finns bara i minnet medan du går igenom det som lästes, och sparas, skickas eller läggs
-aldrig i din kopia av dina data. Bara loggarna du bekräftar sparas, som allt du loggar för hand. Även om läsningen
-sker på telefonen kan Google Play-tjänster skicka diagnostik och användningsdata om skannern och textigenkänningen
-till Google (till exempel uppgifter om enheten och appen och hur väl de fungerade), enligt Googles beskrivning av
-ML Kits datahantering och Googles integritetspolicy. Den innehåller aldrig bilden, texten som lästes eller något du
-loggar, och Novila får inte del av den.
 
 ### Health Connect
 
@@ -239,8 +210,7 @@ hanteras i Health Connect.
 
 Det du loggar sparas i telefonen tills du ändrar eller raderar det, använder *Radera all data* eller avinstallerar
 Novila. Mensdagarna och symtomen raderas när du stänger av *Mens och träning*. Kopian av det som lästes från Health
-Connect ersätts vid varje läsning och tas bort när åtkomsten stängs av eller du raderar dina data. Bilder och text från
-*Läs från papper* sparas aldrig. En testares e-postadress raderas när testet är slut.
+Connect ersätts vid varje läsning och tas bort när åtkomsten stängs av eller du raderar dina data. En testares e-postadress raderas när testet är slut.
 
 ### Varför Novila får hantera det
 
