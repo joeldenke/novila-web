@@ -23,7 +23,7 @@ Novila is a free app for training, sleep and food that gives general advice for 
 
 ### Not care
 
-Novila is not a medical device and does not diagnose, treat or prevent any illness. Its advice does not replace a doctor, a physiotherapist or other care. Talk to one before you start training if you have an illness, an injury, are pregnant or are unsure, and stop and seek care if something hurts more than the app's pain limit or doesn't feel right. The gentle training is general exercise, not a plan from a physiotherapist. Read the health disclaimer under Settings too.
+Novila is not a medical device and does not diagnose, treat or prevent any illness. Its advice does not replace a doctor, a physiotherapist or other care. Talk to one before you start training if you have an illness, an injury, are pregnant or are unsure, and stop and seek care if something hurts or doesn't feel right. The gentle training is one general program of mobility, strength and balance, not a plan from a physiotherapist and not made for a particular injury or condition. Read the health disclaimer under Settings too.
 
 ### Using the app
 
@@ -39,7 +39,7 @@ Novila is developed with care and tested, but it is free and given as it is: it 
 
 ### Rights
 
-The app, its texts, illustrations and exercises belong to the developer. Novila also uses open-source software under its own licenses, listed under Settings, Open source licenses. The food names the meal log recognizes come from Livsmedelsverket's food database (the Swedish Food Agency, Livsmedelsdatabasen), used under Creative Commons Attribution 4.0 (CC BY 4.0); Novila uses only the names and food groups, and Livsmedelsverket does not endorse the app.
+The app, its texts, illustrations and exercises belong to the developer. Novila also uses open-source software under its own licenses, listed under Settings, Open source licenses. The food names the meal log recognizes come from Livsmedelsverket's food database (the Swedish Food Agency, Livsmedelsdatabasen), used under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The data is adapted: Novila uses only the names and food groups, mapped to Novila's own food groups, and Livsmedelsverket does not endorse the app.
 
 ### Changes
 
@@ -63,7 +63,7 @@ Novila är en gratis app för träning, sömn och kost som ger allmänna råd f�
 
 ### Inte vård
 
-Novila är inte en medicinteknisk produkt och ställer inga diagnoser, behandlar inte och förebygger inte sjukdomar. Råden ersätter inte en läkare, fysioterapeut eller annan vård. Prata med någon av dem innan du börjar träna om du har en sjukdom eller skada, är gravid eller känner dig osäker, och sluta och sök vård om något gör ondare än appens smärtgräns eller inte känns rätt. Den skonsamma träningen är allmän träning, inte en plan från en fysioterapeut. Läs även hälsoansvarsfriskrivningen under Inställningar.
+Novila är inte en medicinteknisk produkt och ställer inga diagnoser, behandlar inte och förebygger inte sjukdomar. Råden ersätter inte en läkare, fysioterapeut eller annan vård. Prata med någon av dem innan du börjar träna om du har en sjukdom eller skada, är gravid eller känner dig osäker, och sluta och sök vård om något gör ont eller inte känns rätt. Den skonsamma träningen är ett allmänt program med rörlighet, styrka och balans, inte en plan från en fysioterapeut och inte gjord för en viss skada eller ett visst besvär. Läs även hälsoansvarsfriskrivningen under Inställningar.
 
 ### Att använda appen
 
@@ -79,7 +79,7 @@ Novila utvecklas med omsorg och testas, men den är gratis och ges som den är: 
 
 ### Rättigheter
 
-Appen, dess texter, illustrationer och övningar tillhör utvecklaren. Novila använder även öppen källkod under sina egna licenser, som finns under Inställningar, Öppna licenser. Livsmedelsnamnen som måltidsloggen känner igen kommer från Livsmedelsverkets livsmedelsdatabas, under Creative Commons Erkännande 4.0 (CC BY 4.0); Novila använder bara namnen och livsmedelsgrupperna, och Livsmedelsverket står inte bakom appen.
+Appen, dess texter, illustrationer och övningar tillhör utvecklaren. Novila använder även öppen källkod under sina egna licenser, som finns under Inställningar, Öppna licenser. Livsmedelsnamnen som måltidsloggen känner igen kommer från Livsmedelsverkets livsmedelsdatabas, under [Creative Commons Erkännande 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.sv). Uppgifterna är bearbetade: Novila använder bara namnen och livsmedelsgrupperna, kopplade till Novilas egna livsmedelsgrupper, och Livsmedelsverket står inte bakom appen.
 
 ### Ändringar
 

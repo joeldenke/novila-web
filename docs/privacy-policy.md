@@ -6,6 +6,11 @@ en vanlig webbsida, inte en PDF): `tools/site/build_site.py` gör `https://novil
 sidan i webbläsaren på appens språk (`privacy_url` i `:feature:settings`). Texten finns alltså bara här: ändra den
 och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för hur adressen publiceras.
 
+<!-- [jurist] Rättslig grund i *Why Novila may handle it* / *Varför Novila får hantera det* och testaranmälan i
+*Becoming a tester* / *Bli testare*: låt en jurist läsa formuleringen, och om utvecklaren alls är
+personuppgiftsansvarig för data som bara finns på telefonen (docs/data-protection.md). Kommentaren står här, före
+första ---, eftersom webbplatsens byggskript inte publicerar den här delen och stoppar på HTML i avsnitten. -->
+
 ---
 
 ## English
@@ -35,18 +40,9 @@ Novila works without a name or an account.
 ### Where it is kept
 
 Only on your phone, encrypted with a key from the phone's Android Keystore. Novila has no account and no server,
-and the app has no access to the internet, so nothing you log can be sent anywhere. Novila's data is left out of
-Android's backup and of transfers to a new phone. The links to this policy and the terms of use in Settings open
+and the app has no access to the internet, so nothing you log can leave the phone through Novila. Novila's data is
+left out of Android's backup and of transfers to a new phone. The links to this policy and the terms of use in Settings open
 novila.app in your browser; the site has no cookies, analytics or scripts.
-
-### Reading a page from your notebook
-
-If you use *Read from paper*, you photograph a page where you have written down your days. Google's document scanner
-(part of Google Play services) takes the picture and straightens it in its own screen, so Novila never gets access to
-the camera; you can also choose a photo you already have. Google's text recognition (ML Kit, also through Google Play
-services) reads the handwriting on your phone. The photo and the text are kept only in memory while you look over what
-was read, and are never saved, sent or added to your copy of your data. Only the logs you confirm are saved, like
-anything you log by hand.
 
 ### Health Connect
 
@@ -84,6 +80,20 @@ from the phone at once, and uninstalling Novila removes all of it. No copy exist
 yourself (below), so there is nothing more for the developer to delete or hand over. Data in Health Connect is managed
 in Health Connect.
 
+### How long it is kept
+
+What you log is kept on the phone until you change or delete it, use *Delete all data* or uninstall Novila. The days
+of your period and your symptoms are deleted when you turn off *Follow your cycle*. The copy of what was read from
+Health Connect is replaced at every read and removed when access is turned off or you delete your data. A tester's email address is deleted when the test is over.
+
+### Why Novila may handle it
+
+Novila handles what you log only because you ask it to, and only on your phone, so that the app can do what you use
+it for. For health data, and the days of your period in particular, the basis is your own explicit choice
+(Article 9(2)(a) GDPR): every part is optional and off until you fill it in or turn it on, and access to Health
+Connect is asked for in Android's own dialog. You withdraw that choice by turning the part off, deleting what you have
+logged or turning off access in Health Connect.
+
 ### Your own copy
 
 Under Settings you can save a copy of your data as a file, and read it in again, for example on a new phone. You
@@ -110,7 +120,10 @@ Before Novila is on Google Play, you can sign up to test it with the button *Bec
 a form in Google Forms, where you sign in with your Google account; the developer then gets that account's email
 address and your answers. The address is used only to invite you to the test on Google Play and to email you about
 it, is shared with no one but Google Play's tester list, and is deleted when the test is over. Ask, and it is
-deleted sooner. Google Forms follows [Google's privacy policy](https://policies.google.com/privacy).
+deleted sooner. Here the developer is responsible for your address, and the basis is your consent when you send the
+form, which you can withdraw at any time by asking. Google receives your answers as the provider of Google Forms and
+Google Play and may process them in the United States, under the EU-US Data Privacy Framework, which Google is
+certified under. Google Forms follows [Google's privacy policy](https://policies.google.com/privacy).
 
 ### Who is behind Novila
 
@@ -152,18 +165,10 @@ konto.
 ### Var det sparas
 
 Bara i din telefon, krypterat med en nyckel från telefonens Android Keystore. Novila har inget konto och ingen
-server, och appen har ingen åtkomst till internet, så inget du loggar kan skickas någonstans. Novilas data lämnas
+server, och appen har ingen åtkomst till internet, så inget du loggar kan lämna telefonen genom Novila. Novilas data lämnas
 utanför Androids säkerhetskopiering och överföringar till en ny telefon. Länkarna till den här policyn och
 användarvillkoren under Inställningar öppnar novila.app i din webbläsare; sajten har inga kakor, analysverktyg eller
 skript.
-
-### Läsa en sida ur anteckningsboken
-
-Använder du *Läs från papper* fotograferar du en sida där du skrivit ner dina dagar. Googles dokumentskanner (en del av
-Google Play-tjänster) tar bilden och rätar upp den i sin egen vy, så Novila får aldrig tillgång till kameran; du kan
-också välja en bild du redan har. Googles textigenkänning (ML Kit, också via Google Play-tjänster) läser handstilen på
-telefonen. Bilden och texten finns bara i minnet medan du går igenom det som lästes, och sparas, skickas eller läggs
-aldrig i din kopia av dina data. Bara loggarna du bekräftar sparas, som allt du loggar för hand.
 
 ### Health Connect
 
@@ -201,6 +206,20 @@ telefonen på en gång, och avinstallerar du Novila försvinner allt. Ingen kopi
 själv har sparat en (nedan), så det finns inget mer för utvecklaren att radera eller lämna ut. Data i Health Connect
 hanteras i Health Connect.
 
+### Hur länge det sparas
+
+Det du loggar sparas i telefonen tills du ändrar eller raderar det, använder *Radera all data* eller avinstallerar
+Novila. Mensdagarna och symtomen raderas när du stänger av *Mens och träning*. Kopian av det som lästes från Health
+Connect ersätts vid varje läsning och tas bort när åtkomsten stängs av eller du raderar dina data. En testares e-postadress raderas när testet är slut.
+
+### Varför Novila får hantera det
+
+Novila hanterar det du loggar bara för att du ber om det, och bara i din telefon, så att appen kan göra det du
+använder den till. För hälsodata, och särskilt mensdagarna, är grunden ditt eget uttryckliga val (artikel 9.2 a i
+dataskyddsförordningen): varje del är frivillig och avstängd tills du fyller i den eller slår på den, och åtkomsten
+till Health Connect frågas i Androids egen dialog. Du tar tillbaka valet genom att stänga av delen, radera det du har
+loggat eller stänga av åtkomsten i Health Connect.
+
 ### Din egen kopia
 
 Under Inställningar kan du spara en kopia av dina data som en fil och läsa in den igen, till exempel i en ny telefon.
@@ -227,8 +246,10 @@ Novila är gjord för vuxna och riktar sig inte till barn.
 Innan Novila finns på Google Play kan du anmäla dig som testare med knappen *Bli testare* på novila.app. Den öppnar
 ett formulär i Google Formulär, där du loggar in med ditt Google-konto; utvecklaren får då kontots e-postadress och
 dina svar. Adressen används bara för att bjuda in dig till testet på Google Play och mejla dig om det, delas inte med
-någon utom testlistan i Google Play och raderas när testet är slut. Hör av dig, så raderas den tidigare. Google
-Formulär följer [Googles integritetspolicy](https://policies.google.com/privacy?hl=sv).
+någon utom testlistan i Google Play och raderas när testet är slut. Hör av dig, så raderas den tidigare. Här är
+utvecklaren ansvarig för din adress, och grunden är ditt samtycke när du skickar formuläret, som du när som helst kan
+ta tillbaka genom att höra av dig. Google tar emot dina svar som leverantör av Google Formulär och Google Play och kan
+behandla dem i USA, enligt EU-US Data Privacy Framework, som Google är certifierat under. Google Formulär följer [Googles integritetspolicy](https://policies.google.com/privacy?hl=sv).
 
 ### Vem som står bakom Novila
 
