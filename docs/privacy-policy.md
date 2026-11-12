@@ -10,7 +10,7 @@ och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för 
 
 ## English
 
-*Updated 11 November 2026*
+*Updated 12 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -19,13 +19,16 @@ kept, who can see it and what you can do about it.
 
 What you enter yourself: your name, birth year, height, weight and body measurements; your sleep (with what may have
 affected a night, such as your period), food (with the meals you write in your own words and star, for quick logging),
-drinks and workouts, with the repetitions you did and effort and pain after a session; your answers to the training and
+drinks and workouts, with the repetitions and weights you did and effort and pain after a session; your answers to the training and
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals,
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
 the ones you let go), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
-time and never saved), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
+time and never saved), what you tell Novila when you answer *Doesn't fit me* (for example that the training plan is
+too hard, kept so the plan changes and can be taken back), how you take Novila's advice (for each kind of advice, such
+as a tip of the day, how often you followed it or passed it over and the dates, so advice you rarely use comes less
+often and rests for a while), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
 the first week lighter after a break; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
 Novila works without a name or an account.
 
@@ -47,13 +50,16 @@ anything you log by hand.
 
 ### Health Connect
 
-If you allow it, Novila reads today's steps and active calories, your workouts from the last five weeks, your
-sleep up to two years back, and your resting heart rate and heart rate variability from the last two weeks. The
-data is read only while the app is open, used only to show your day, your nights and your recovery and to plan your
-training, and kept only in
-memory: Novila never saves it, never writes to Health Connect and never shares it. Novila's use of data from
-Health Connect follows the Health Connect permissions policy, including its Limited Use requirements. You can turn
-off access at any time in Health Connect.
+If you allow it, Novila reads today's steps and active calories, your workouts and your sleep up to two years back,
+and your resting heart rate and heart rate variability from the last two months. If you also allow it, Novila reads
+what was recorded before you connected (history) and reads the same data a few times a day while the app is closed
+(background), so your history is there when you open the app; neither adds any other kind of data. The data is used
+only to show your day, your nights, your trends and your recovery and to plan your training. So the app opens with
+your history, Novila keeps a copy of the latest workouts, nights and recovery it read, encrypted on the phone like
+everything else; it is replaced at every read and removed as soon as access is turned off, or when you delete your
+data. Novila never writes to Health Connect, never sends or shares the data, and never puts it in backups or in your
+copy of your data. Novila's use of data from Health Connect follows the Health Connect permissions policy, including
+its Limited Use requirements. You can turn off access at any time in Health Connect.
 
 ### Shared with no one
 
@@ -121,7 +127,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 11 november 2026*
+*Uppdaterad 12 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -130,11 +136,14 @@ vem som kan se det och vad du kan göra åt det.
 
 Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, din sömn (med det som kan ha påverkat natten,
 till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning), dryck och dina
-pass, med repetitionerna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
+pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål, vanorna du väljer att behålla (med dagarna
 du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
-följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), påminnelser och inställningar. Novila minns
+följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), det du säger till Novila när du svarar *Passar
+inte mig* (till exempel att träningsplanen är för tung, sparat så att planen ändras och kan tas tillbaka), hur du tar
+emot Novilas råd (för varje sorts råd, till exempel ett dagens tips, hur ofta du följde det eller gick förbi det och
+datumen, så att råd du sällan använder kommer mer sällan och vilar ett tag), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
 ett uppehåll; aldrig hur ofta eller hur länge du använder den. Om du tillåter
 det även det Novila läser från Health Connect, se nedan. Allt är frivilligt, och Novila fungerar utan namn och utan
@@ -158,13 +167,17 @@ aldrig i din kopia av dina data. Bara loggarna du bekräftar sparas, som allt du
 
 ### Health Connect
 
-Om du tillåter det läser Novila dagens steg och aktiva kalorier, dina träningspass de senaste fem veckorna, din
-sömn upp till två år bakåt samt din vilopuls och hjärtfrekvensvariabilitet de senaste två veckorna. Datan läses
-bara när appen är öppen, används bara för att visa din dag, dina nätter och din återhämtning och för att planera din
-träning, och finns bara i minnet: Novila
-sparar den aldrig, skriver aldrig till Health Connect och delar den aldrig. Novilas användning av data från Health
-Connect följer Health Connects behörighetspolicy, inklusive kraven på begränsad användning (Limited Use). Du kan
-när som helst stänga av åtkomsten i Health Connect.
+Om du tillåter det läser Novila dagens steg och aktiva kalorier, dina träningspass och din sömn upp till två år
+bakåt samt din vilopuls och hjärtfrekvensvariabilitet de senaste två månaderna. Tillåter du det också läser Novila
+det som registrerades innan du anslöt (historik) och samma uppgifter några gånger om dagen medan appen är stängd
+(bakgrund), så att din historik finns där när du öppnar appen; inget av dem lägger till någon annan sorts uppgift.
+Uppgifterna används bara för att visa din dag, dina nätter, dina trender och din återhämtning och för att planera din
+träning. För att appen ska öppna med din historik sparar Novila en kopia av de senaste träningspassen, nätterna och
+återhämtningen den läste, krypterad på telefonen som allt annat; den ersätts vid varje läsning och tas bort så fort
+åtkomsten stängs av eller när du raderar dina data. Novila skriver aldrig till Health Connect, skickar eller delar
+aldrig uppgifterna och lägger dem aldrig i säkerhetskopior eller i din kopia av dina data. Novilas användning av
+data från Health Connect följer Health Connects behörighetspolicy, inklusive kraven på begränsad användning (Limited
+Use). Du kan när som helst stänga av åtkomsten i Health Connect.
 
 ### Delas inte med någon
 
