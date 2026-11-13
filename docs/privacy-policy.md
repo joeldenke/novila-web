@@ -15,7 +15,7 @@ första ---, eftersom webbplatsens byggskript inte publicerar den här delen och
 
 ## English
 
-*Updated 12 November 2026*
+*Updated 13 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -46,7 +46,8 @@ novila.app in your browser; the site has no cookies, analytics or scripts.
 
 ### Health Connect
 
-If you allow it, Novila reads today's steps and active calories, your workouts and your sleep up to two years back,
+If you allow it, Novila reads today's steps and active calories (during a movement breaks experiment also your steps
+per day and since the last break, read when needed and never kept), your workouts and your sleep up to two years back,
 and your resting heart rate and heart rate variability from the last two months. If you also allow it, Novila reads
 what was recorded before you connected (history) and reads the same data a few times a day while the app is closed
 (background), so your history is there when you open the app; neither adds any other kind of data. The data is used
@@ -102,6 +103,11 @@ you have entered in Novila, not what is read from Health Connect, and it is not 
 can reach it. If you save it in a cloud service, that service's terms apply to the file. Reading a copy in replaces
 what Novila has on the phone.
 
+If you want, you can choose a folder with Android's own folder picker, and Novila then saves a new copy there once a
+week by itself, keeping the four latest. Novila gets access to that folder only, and loses it when you turn the
+automatic copy off or delete all data. If there has been no copy for a month, Novila reminds you once with a
+notification. Novila remembers the date of the last copy on the phone, to show it in Settings.
+
 ### Google Play and Android
 
 Novila is installed through Google Play, and Health Connect is part of Android made by Google. They follow [Google's privacy policy](https://policies.google.com/privacy). If you share usage and
@@ -140,7 +146,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 12 november 2026*
+*Uppdaterad 13 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -172,7 +178,8 @@ skript.
 
 ### Health Connect
 
-Om du tillåter det läser Novila dagens steg och aktiva kalorier, dina träningspass och din sömn upp till två år
+Om du tillåter det läser Novila dagens steg och aktiva kalorier (under ett experiment med rörelsepauser också dina steg
+per dag och sedan förra pausen, lästa när de behövs och aldrig sparade), dina träningspass och din sömn upp till två år
 bakåt samt din vilopuls och hjärtfrekvensvariabilitet de senaste två månaderna. Tillåter du det också läser Novila
 det som registrerades innan du anslöt (historik) och samma uppgifter några gånger om dagen medan appen är stängd
 (bakgrund), så att din historik finns där när du öppnar appen; inget av dem lägger till någon annan sorts uppgift.
@@ -227,6 +234,11 @@ Du väljer var filen sparas med Androids egen filväljare, och Novila skickar de
 det du har fyllt i i Novila, inte det som läses från Health Connect, och den är inte krypterad, så spara den där bara
 du kommer åt den. Sparar du den i en molntjänst gäller den tjänstens villkor för filen. När du läser in en kopia
 ersätts det Novila har i telefonen.
+
+Om du vill kan du välja en mapp med Androids egen mappväljare, så sparar Novila en ny kopia där en gång i veckan av sig
+själv och behåller de fyra senaste. Novila får bara tillgång till den mappen, och förlorar den när du stänger av den
+automatiska kopian eller raderar all data. Har det gått en månad utan en kopia påminner Novila dig en gång med en
+notis. Novila minns datumet för den senaste kopian i telefonen, för att visa det i Inställningar.
 
 ### Google Play och Android
 
