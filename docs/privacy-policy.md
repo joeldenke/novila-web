@@ -23,7 +23,8 @@ kept, who can see it and what you can do about it.
 ### What Novila handles
 
 What you enter yourself: your name, birth year, height, weight and body measurements; your sleep (with what may have
-affected a night, such as your period), food (with the meals you write in your own words and star, for quick logging),
+affected a night, such as your period), food (with the meals you write in your own words and star, for quick logging, and the time of day you
+log a meal, to draw the day's meals),
 drinks and workouts, with the repetitions and weights you did and effort and pain after a session; your answers to the training and
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose),
@@ -154,7 +155,8 @@ vem som kan se det och vad du kan göra åt det.
 ### Vad Novila hanterar
 
 Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, din sömn (med det som kan ha påverkat natten,
-till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning), dryck och dina
+till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning, och klockslaget du
+loggar en måltid, för att rita dagens måltider), dryck och dina
 pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer), vanorna du väljer att behålla (med dagarna
