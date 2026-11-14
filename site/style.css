@@ -55,6 +55,7 @@
   --cream-secondary: rgba(243, 239, 230, 0.84);
   --glass: rgba(255, 255, 255, 0.06);
   --glass-strong: rgba(255, 255, 255, 0.09);
+  --card: rgba(243, 239, 230, 0.05);
   --line: rgba(243, 239, 230, 0.22);
   --unlit: rgba(243, 239, 230, 0.6);
   --sun: #f4c152;
@@ -88,7 +89,7 @@
   --hour: var(--dusk);
 }
 
-/* The start page's light follows the visitor's hour, set on <html> by a small script in the page; dusk without it. */
+/* The page's light follows the visitor's hour, set on <html> by a small script in the page; dusk without it. */
 html[data-light="dawn"] {
   --hour: var(--dawn);
 }
@@ -111,6 +112,8 @@ html {
 }
 
 body {
+  position: relative;
+  isolation: isolate;
   margin: 0;
   background: var(--ink);
   color: var(--cream);
@@ -118,6 +121,18 @@ body {
   font-size: 1.0625rem;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+}
+
+/* One light behind the whole page, as the app draws one behind every screen: the visitor's hour on the ink. It stays
+   while the page scrolls, and the sections lie over it as smoked glass. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--ink);
+  background-image: var(--hour);
+  pointer-events: none;
 }
 
 a {
@@ -214,7 +229,7 @@ main {
   padding: var(--gap);
 }
 
-/* A tile: the ink with its own light drawn on it, no edge, so the light is what is seen. */
+/* A section: a smoked glass card over the page's light, no edge, so the light is still what is seen. */
 
 .tile {
   position: relative;
@@ -225,8 +240,7 @@ main {
   padding: 56px 24px;
   overflow: hidden;
   border-radius: var(--tile-radius);
-  background-color: var(--ink);
-  background-image: var(--dusk);
+  background: var(--card);
   text-align: center;
 }
 
@@ -235,42 +249,11 @@ main {
   margin-bottom: 40px;
 }
 
+/* The start: no card, the title and the phone stand straight on the light. */
+
 .tile-hero {
   padding-bottom: 0;
-  background-image: var(--hour);
-}
-
-.tile-light {
-  background-image: var(--day);
-}
-
-.tile-name {
-  background-image: var(--dawn);
-}
-
-.tile-night,
-.tile-lake {
-  background-image: var(--night);
-}
-
-/* Training, Sleep and Food each in their own part's light, as on their tabs. */
-
-.tile-pine {
-  background-image:
-    radial-gradient(circle min(52vw, 680px) at 88% 20%, rgba(169, 216, 190, 0.2), rgba(169, 216, 190, 0.07) 45%, transparent),
-    radial-gradient(circle min(56vw, 720px) at 8% 70%, rgba(31, 90, 74, 0.42), rgba(31, 90, 74, 0.14) 45%, transparent);
-}
-
-.tile-lake {
-  background-image:
-    radial-gradient(circle min(46vw, 600px) at 12% 18%, rgba(191, 230, 255, 0.16), rgba(191, 230, 255, 0.06) 45%, transparent),
-    var(--night);
-}
-
-.tile-falu {
-  background-image:
-    radial-gradient(circle min(50vw, 640px) at 86% 22%, rgba(242, 160, 123, 0.24), rgba(242, 160, 123, 0.08) 45%, transparent),
-    radial-gradient(circle min(46vw, 600px) at 10% 80%, rgba(165, 64, 106, 0.24), rgba(165, 64, 106, 0.08) 45%, transparent);
+  background: none;
 }
 
 .eyebrow {
@@ -541,7 +524,7 @@ html[data-light] .horizon {
   object-position: top;
 }
 
-/* The hero's phone stands on the tile's lower edge, cut by it, as if rising over the horizon. */
+/* The hero's phone rises from the light and fades out into it below. */
 
 .hero-stage {
   display: flex;
@@ -549,6 +532,8 @@ html[data-light] .horizon {
   width: 100%;
   height: clamp(380px, 62vw, 560px);
   overflow: hidden;
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent);
+  mask-image: linear-gradient(to bottom, #000 70%, transparent);
 }
 
 .hero-stage .phone {
@@ -644,10 +629,6 @@ html[data-light] .horizon {
 /* Tablets and foldables: the same slim frame as the phone, around the app's 900 dp wide screens in two panes. The
    tablet lies in landscape; the foldable stands open with its hinge as a faint line down the middle. */
 
-.tile-devices {
-  background-image: var(--dusk);
-}
-
 .device-stage {
   display: flex;
   align-items: flex-end;
@@ -726,8 +707,7 @@ html[data-light] .horizon {
   margin: 0 0 var(--gap);
   padding: 56px 24px;
   border-radius: var(--tile-radius);
-  background-color: var(--ink);
-  background-image: var(--night);
+  background: var(--card);
 }
 
 .details h2 {
@@ -799,8 +779,7 @@ html[data-light] .horizon {
   margin: 0 0 var(--gap);
   padding: 56px 24px;
   border-radius: var(--tile-radius);
-  background-color: var(--ink);
-  background-image: var(--dawn);
+  background: var(--card);
   text-align: center;
 }
 
@@ -841,16 +820,7 @@ html[data-light] .horizon {
 }
 
 /* The questions page: every answer open, grouped under a heading, so a link to #id lands on its answer without a
-   script. It and the documents lie on the ink under a faint dawn. */
-
-.page-faq main,
-.page-privacy main,
-.page-terms main,
-body > main.document {
-  background-image: var(--dawn);
-  background-repeat: no-repeat;
-  background-size: 100% 900px;
-}
+   script. Like the documents, it lies on the page's light. */
 
 .faq {
   max-width: 760px;
@@ -901,7 +871,7 @@ body > main.document {
   margin-bottom: 8px;
   padding: 18px 20px;
   border-radius: 18px;
-  background: var(--glass);
+  background: var(--card);
   scroll-margin-top: 72px;
 }
 
