@@ -1,7 +1,7 @@
 # Novila – Privacy policy / Integritetspolicy
 
 Det här är texten för integritetspolicyns publika adress, som Play Console kräver (fältet *Privacy policy*,
-en vanlig webbsida, inte en PDF): webbplatsen (repot `joeldenke/novila-web`, som har en kopia av filen) gör `https://novila.app/privacy/` och
+en vanlig webbsida, inte en PDF): `tools/site/build_site.py` gör `https://novila.app/privacy/` och
 `https://novila.app/sv/integritet/` av den. Appen visar ingen egen kopia; Inställningar → *Integritetspolicy* öppnar
 sidan i webbläsaren på appens språk (`privacy_url` i `:feature:settings`). Texten finns alltså bara här: ändra den
 och datumet när appen ändrar vad den hanterar. Se `docs/play-console.md` för hur adressen publiceras.
