@@ -27,7 +27,7 @@ affected a night, such as your period), food (with the meals you write in your o
 log a meal, to draw the day's meals),
 drinks and workouts, with the repetitions and weights you did and effort and pain after a session; your answers to the training and
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
-your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose),
+your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose and, toward a race, its date, sport and distance),
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
 the ones you let go), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
@@ -159,7 +159,7 @@ till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmä
 loggar en måltid, för att rita dagens måltider), dryck och dina
 pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
-och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer), vanorna du väljer att behålla (med dagarna
+och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer och, mot ett lopp, dess datum, gren och distans), vanorna du väljer att behålla (med dagarna
 du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
 följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), det du säger till Novila när du svarar *Passar
 inte mig* (till exempel att träningsplanen är för tung, sparat så att planen ändras och kan tas tillbaka), hur du tar
