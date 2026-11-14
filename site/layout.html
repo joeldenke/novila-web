@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#24533B">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0B110F">
   <link rel="canonical" href="{{canonical}}">
   <link rel="alternate" hreflang="en" href="{{alternate_en}}">
   <link rel="alternate" hreflang="sv" href="{{alternate_sv}}">
@@ -14,6 +14,25 @@
   <link rel="icon" type="image/png" href="/icon.png">
   <link rel="apple-touch-icon" href="/icon.png">
   <link rel="stylesheet" href="/style.css">
+  <script>
+    // The light of the visitor's hour, as in the app: dawn 05-10, day 10-17, dusk 17-22, night 22-05 (dusk until
+    // 02 in June and July). It sets the start page's light and its horizon; nothing is stored or sent.
+    (function () {
+      var now = new Date(), h = now.getHours(), m = now.getMonth() + 1;
+      var light = h >= 5 && h < 10 ? "dawn" : h >= 10 && h < 17 ? "day" : h >= 17 && h < 22 ? "dusk"
+        : (m === 6 || m === 7) && (h >= 22 || h < 2) ? "dusk" : "night";
+      var root = document.documentElement;
+      root.setAttribute("data-light", light);
+      root.style.setProperty("--now", ((h * 60 + now.getMinutes()) / 1440).toFixed(3));
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".horizon").forEach(function (horizon) {
+          var word = horizon.getAttribute("data-" + light);
+          horizon.setAttribute("aria-label", horizon.getAttribute("data-label").replace("%s", word));
+          horizon.querySelector(".horizon-now").textContent = word;
+        });
+      });
+    })();
+  </script>
 </head>
 <body class="page-{{page}}">
   <a class="skip" href="#content">{{skip}}</a>

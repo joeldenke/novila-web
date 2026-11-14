@@ -13,7 +13,6 @@ on:
       - docs/privacy-policy.md
       - docs/terms-of-use.md
       - docs/play-icon.png
-      - feature/onboarding/src/main/res/drawable-nodpi/**
       - core/designsystem/src/main/res/font/**
       - .github/workflows/pages.yml
   push:
@@ -24,7 +23,6 @@ on:
       - docs/privacy-policy.md
       - docs/terms-of-use.md
       - docs/play-icon.png
-      - feature/onboarding/src/main/res/drawable-nodpi/**
       - core/designsystem/src/main/res/font/**
       - .github/workflows/pages.yml
   workflow_dispatch:
