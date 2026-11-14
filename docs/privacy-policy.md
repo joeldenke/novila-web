@@ -48,8 +48,9 @@ novila.app in your browser; the site has no cookies, analytics or scripts.
 
 ### Health Connect
 
-If you allow it, Novila reads today's steps and active calories (during a movement breaks experiment also your steps
-per day and since the last break, read when needed and never kept), your workouts and your sleep up to two years back,
+If you allow it, Novila reads your steps per day up to two years back (kept in memory only, never saved, for Trends
+and the links between your steps and your sleep), today's active calories (during a movement breaks experiment also
+the steps since the last break, read when needed and never kept), your workouts and your sleep up to two years back,
 and your resting heart rate and heart rate variability from the last two months. If you also allow it, Novila reads
 what was recorded before you connected (history) and reads the same data a few times a day while the app is closed
 (background), so your history is there when you open the app; neither adds any other kind of data. The data is used
@@ -182,8 +183,9 @@ skript.
 
 ### Health Connect
 
-Om du tillåter det läser Novila dagens steg och aktiva kalorier (under ett experiment med rörelsepauser också dina steg
-per dag och sedan förra pausen, lästa när de behövs och aldrig sparade), dina träningspass och din sömn upp till två år
+Om du tillåter det läser Novila dina steg per dag upp till två år bakåt (bara i minnet, aldrig sparade, för Trender och
+sambanden mellan stegen och sömnen), dagens aktiva kalorier (under ett experiment med rörelsepauser också stegen sedan
+förra pausen, lästa när de behövs och aldrig sparade), dina träningspass och din sömn upp till två år
 bakåt samt din vilopuls och hjärtfrekvensvariabilitet de senaste två månaderna. Tillåter du det också läser Novila
 det som registrerades innan du anslöt (historik) och samma uppgifter några gånger om dagen medan appen är stängd
 (bakgrund), så att din historik finns där när du öppnar appen; inget av dem lägger till någon annan sorts uppgift.
