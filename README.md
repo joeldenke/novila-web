@@ -28,8 +28,9 @@ the answer in the same pull request as the copied files.
 - `docs/play-icon.png` – the icon
 - `core/designsystem/src/main/res/font/hanken_grotesk_*.ttf` (all text) and `bricolage_grotesque_{medium,semibold}.ttf`
   (the h1 and h2 headings, as titles in the app), with their licences in `core/designsystem/src/main/assets`
-- `feature/*/src/test/screenshots/…` – the app's screenshot references the phones, the tablet and the foldable show
-  (`SCREENS` in the builder)
+- `site/screens/*.webp` – the app's screens the phones, the tablet and the foldable show. Not copied as they are:
+  `python3 tools/site/screens.py ../Novila` (needs Pillow) cuts each screenshot reference to what the device shows,
+  scales it to twice the size the page sets it at and saves it as WebP (`SCREENS` in the script)
 
 When one of them changes in the app, copy it here in a pull request. The page addresses (`PAGES` in the builder) are
 public and in Play Console; never move one.
