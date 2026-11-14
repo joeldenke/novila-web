@@ -31,9 +31,10 @@ your cycle*, the days of your period and the symptoms you log, which are deleted
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
 the ones you let go), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
-time and never saved), what you tell Novila when you answer *Doesn't fit me* (for example that the training plan is
-too hard, kept so the plan changes and can be taken back), how you take Novila's advice (for each kind of advice, such
-as a tip of the day, how often you followed it or passed it over and the dates, so advice you rarely use comes less
+time and never saved), what you tell Novila when you answer *Doesn't fit me* or *Not for me* (for example that the training plan is
+too hard, or that a kind of insight isn't for you, kept so Novila changes and you can take it back under *What Novila
+has learned*), how you take Novila's advice (for each kind of advice, such as a tip of the day or an insight, how often
+you followed it, said it rings true or passed it over and the dates, so advice you rarely use comes less
 often and rests for a while), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
 the first week lighter after a break, and for the first two weeks which of the places suggested under Discover Novila you have opened, so they can be ticked off; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
 Novila works without a name or an account.
@@ -162,8 +163,9 @@ dina matpreferenser, även allergier, recepten du själv skriver och de du har l
 och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer och, mot ett lopp, dess datum, gren och distans), vanorna du väljer att behålla (med dagarna
 du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
 följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), det du säger till Novila när du svarar *Passar
-inte mig* (till exempel att träningsplanen är för tung, sparat så att planen ändras och kan tas tillbaka), hur du tar
-emot Novilas råd (för varje sorts råd, till exempel ett dagens tips, hur ofta du följde det eller gick förbi det och
+inte mig* (till exempel att träningsplanen är för tung eller att en sorts insikt inte är för dig, sparat så att Novila
+ändras och du kan ta tillbaka det under *Det Novila lärt sig*), hur du tar emot Novilas råd (för varje sorts råd, till
+exempel ett dagens tips eller en insikt, hur ofta du följde det, sa att det stämmer eller gick förbi det och
 datumen, så att råd du sällan använder kommer mer sällan och vilar ett tag), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
 ett uppehåll, och de första två veckorna vilka av ställena under Upptäck Novila du har öppnat, så att de kan bockas av; aldrig hur ofta eller hur länge du använder den. Om du tillåter
