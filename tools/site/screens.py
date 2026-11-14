@@ -19,33 +19,41 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "site" / "screens"
 REFS = "src/test/screenshots/se.novila.feature"
 
-# A phone shows the top of a screen at 1078 x 2400 px (a 20:9 phone at 2.625x); the page sets it at most 300 px wide.
-PHONE = (1078, 2400)
+# A phone shows the top of a screen at 20:9 (1078 x 2400 px on a 2.625x phone); the page sets it at most 300 px wide.
+PHONE = 2400 / 1078
 PHONE_WIDTH = 600
 QUALITY = 82
 
-# name: (screenshot reference in the app, the part a device shows or None for all of it, width in px)
+T = "feature/training/" + REFS + ".training."
+S = "feature/sleep/" + REFS + ".sleep."
+N = "feature/nutrition/" + REFS + ".nutrition."
+D = "feature/today/" + REFS + ".today."
+
+# name: (screenshot reference in the app, the height a device shows as a share of the width or None for all of it,
+# width in px)
 SCREENS = {
-    "today": (f"feature/today/{REFS}.today.TodayScreenKt.TodayScreenPreview.H1400dp.png", PHONE, PHONE_WIDTH),
-    "training": (
-        f"feature/training/{REFS}.training.TrainingScreenKt.TrainingScreenPreview.H1600dp_WITH_BACKGROUND.png",
+    "today": (D + "TodayScreenKt.TodayScreenPreview.H1400dp.png", PHONE, PHONE_WIDTH),
+    "training": (T + "TrainingScreenKt.TrainingScreenPreview.H1600dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "sleep": (S + "SleepScreenKt.SleepScreenPreview.H1000dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "nutrition": (N + "NutritionScreenKt.NutritionScreenPreview.H1200dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "workout": (T + "WorkoutScreenKt.WorkoutSetPreview.H1100dp.png", PHONE, PHONE_WIDTH),
+    "exercise": (T + "ExerciseDetailScreenKt.ExerciseDetailPreview.H1400dp.png", PHONE, PHONE_WIDTH),
+    "sleep-week": (S + "SleepTrendsScreenKt.SleepTrendsScreenPreview.H1400dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "sleep-coach": (S + "SleepCoachScreenKt.SleepCoachScreenPreview.H2200dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "recipes": (N + "RecipesScreenKt.RecipesScreenPreview.H1200dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "recipe": (N + "RecipesScreenKt.RecipesScreenOpenPreview.H1600dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "insights": (D + "DiscoveriesScreenKt.DiscoveriesScreenPreview.H2600dp_WITH_BACKGROUND.png", PHONE, PHONE_WIDTH),
+    "breathing": (
+        "feature/breathing/" + REFS + ".breathing.BreathingSessionScreenKt.BreathingSessionScreenPreview"
+        ".H1400dp_WITH_BACKGROUND.png",
         PHONE,
         PHONE_WIDTH,
     ),
-    "sleep": (
-        f"feature/sleep/{REFS}.sleep.SleepScreenKt.SleepScreenPreview.H1000dp_WITH_BACKGROUND.png",
-        PHONE,
-        PHONE_WIDTH,
-    ),
-    "nutrition": (
-        f"feature/nutrition/{REFS}.nutrition.NutritionScreenKt.NutritionScreenPreview.H1200dp_WITH_BACKGROUND.png",
-        PHONE,
-        PHONE_WIDTH,
-    ),
-    "tablet": (f"feature/today/{REFS}.today.TodayScreenKt.TodayScreenLandscapePreview.W1200dp_H800dp.png", None, 1600),
+    "habits": ("feature/settings/" + REFS + ".settings.MyHabitsScreenKt.MyHabitsPreview.H900dp_NIGHT.png", PHONE, 600),
+    "widget": ("feature/widget/" + REFS + ".widget.NovilaWidget.Large.png", None, 720),
+    "tablet": (D + "TodayScreenKt.TodayScreenLandscapePreview.W1200dp_H800dp.png", None, 1600),
     "foldable": (
-        f"feature/training/{REFS}.training.TrainingScreenKt.TrainingScreenFoldablePreview"
-        ".W852dp_H880dp_WITH_BACKGROUND.png",
+        T + "TrainingScreenKt.TrainingScreenFoldablePreview.W852dp_H880dp_WITH_BACKGROUND.png",
         None,
         1200,
     ),
@@ -60,9 +68,10 @@ def main() -> None:
     for name, (source, part, width) in SCREENS.items():
         image = Image.open(app / source).convert("RGB")
         if part:
-            if image.width < part[0] or image.height < part[1]:
-                sys.exit(f"{source} is {image.size}, smaller than the {part} a device shows")
-            image = image.crop((0, 0, *part))
+            height = round(image.width * part)
+            if image.height < height:
+                sys.exit(f"{source} is {image.size}, shorter than the {height} px a device shows")
+            image = image.crop((0, 0, image.width, height))
         image = image.resize((width, round(image.height * width / image.width)), Image.LANCZOS)
         target = OUT / f"{name}.webp"
         image.save(target, "WEBP", quality=QUALITY, method=6)

@@ -4,9 +4,9 @@
 The site has a home page, questions and answers, the privacy policy and the terms of use, in English (at the root) and
 Swedish (under /sv). The home pages and the questions are written by hand in site/; the policy and the terms are made
 from docs/privacy-policy.md and docs/terms-of-use.md, the only copy of each: the app links here instead of showing
-them. The scenes are the site's own (site/images); the fonts are copied from the app, and the phones, the tablet and
-the foldable show the app's own screens, which tools/site/screens.py cuts from its screenshot references into
-site/screens, so the site looks like the app.
+them. The site is in Nordic light like the app, and every picture is the app itself: the fonts are copied from the
+app, and the phones, the tablet, the foldable and the widget show its own screens, which tools/site/screens.py cuts
+from its screenshot references into site/screens.
 
     python3 tools/site/build_site.py
 
@@ -262,11 +262,10 @@ def main():
     (OUT / "fonts").mkdir()
     for weight in ("regular", "semibold", "bold"):
         shutil.copy(FONTS / f"hanken_grotesk_{weight}.ttf", OUT / "fonts")
-    for weight in ("medium", "semibold"):
+    for weight in ("light", "medium", "semibold"):
         shutil.copy(FONTS / f"bricolage_grotesque_{weight}.ttf", OUT / "fonts")
     shutil.copy(LICENSES / "hanken_grotesk_ofl.txt", OUT / "fonts" / "OFL.txt")
     shutil.copy(LICENSES / "bricolage_grotesque_ofl.txt", OUT / "fonts" / "OFL-bricolage-grotesque.txt")
-    shutil.copytree(SITE / "images", OUT / "images")
     # The app's own screens in the devices, made small by tools/site/screens.py from its screenshot references.
     shutil.copytree(SITE / "screens", OUT / "screens")
 

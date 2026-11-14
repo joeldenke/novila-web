@@ -2,7 +2,8 @@
     <section class="tile tile-hero">
       <div class="tile-text">
         <p class="eyebrow">Novila</p>
-        <h1>Training, sleep and food. Together.</h1>
+        <h1>Training, sleep and food. <span class="lit">Together.</span></h1>
+        <div class="horizon" role="img" data-label="Where the day is now: %s" data-dawn="Dawn" data-day="Day" data-dusk="Dusk" data-night="Night"><span class="horizon-sun"></span><span class="horizon-now"></span></div>
         <p class="sub">A calm coach that tells you what to do next today, and why. Everything stays on your phone.</p>
         <ul class="promises" aria-label="Novila's promises">
           <li>No ads</li>
@@ -14,7 +15,6 @@
             account.</span></p>
       </div>
       <div class="hero-stage">
-        <img class="hero-scene" src="/images/welcome.webp" alt="" width="1012" height="500">
         <div class="phone"><div class="phone-screen"><img src="/screens/today.webp" alt="Novila's Today screen: today's balance, your day and insights" width="600" height="1336"></div></div>
       </div>
     </section>
@@ -42,26 +42,31 @@
       </div>
     </section>
 
-    <section class="tile tile-night">
-      <div class="tile-text">
-        <p class="eyebrow">Private by design</p>
-        <h2>What you log is yours.</h2>
-        <p class="sub">No ads and no analytics. Your data lives on your phone, and you can save your own copy or delete
-          everything whenever you like.</p>
+    <section class="tile tile-night split">
+      <div class="split-text">
+        <div class="tile-text">
+          <p class="eyebrow">Private by design</p>
+          <h2>What you log is yours.</h2>
+          <p class="sub">No ads and no analytics. Your data lives on your phone, and you can save your own copy or delete
+            everything whenever you like.</p>
+        </div>
+        <div class="facts">
+          <div class="fact">
+            <p class="fact-title">Every suggestion has a reason.</p>
+            <p>No language model. The plan and the insights come from clear rules that explain themselves.</p>
+          </div>
+          <div class="fact">
+            <p class="fact-title">A missed day breaks nothing.</p>
+            <p>Habits count in whole weeks, and rest days count too.</p>
+          </div>
+          <div class="fact">
+            <p class="fact-title">A correlation, never proof.</p>
+            <p>Every insight says how many nights or days it is based on.</p>
+          </div>
+        </div>
       </div>
-      <div class="facts">
-        <div class="fact">
-          <p class="fact-title">Every suggestion has a reason.</p>
-          <p>No language model. The plan and the insights come from clear rules that explain themselves.</p>
-        </div>
-        <div class="fact">
-          <p class="fact-title">A missed day breaks nothing.</p>
-          <p>Habits count in whole weeks, and rest days count too.</p>
-        </div>
-        <div class="fact">
-          <p class="fact-title">A correlation, never proof.</p>
-          <p>Every insight says how many nights or days it is based on.</p>
-        </div>
+      <div class="split-media">
+        <div class="phone"><div class="phone-screen"><img src="/screens/insights.webp" alt="Insights in Novila: what goes with your nights, each with how many nights it is based on" width="600" height="1336" loading="lazy"></div></div>
       </div>
     </section>
 
@@ -95,7 +100,6 @@
           what supports it beside it. On a foldable they meet at the fold, so nothing lies across it.</p>
       </div>
       <div class="device-stage">
-        <img class="device-scene" src="/images/devices.webp" alt="" width="1012" height="512" loading="lazy">
         <figure class="device-figure">
           <div class="tablet"><div class="tablet-screen"><img src="/screens/tablet.webp" alt="Today on a landscape tablet: the balance and your day as four tiles, with the insights beside them" width="1600" height="1067" loading="lazy"></div></div>
           <figcaption>Tablet</figcaption>
@@ -107,39 +111,57 @@
       </div>
     </section>
 
-    <section class="tile tile-pine">
-      <div class="tile-text">
-        <p class="eyebrow">Training</p>
-        <h2>A program built around your week.</h2>
-        <p class="sub">Cardio and strength following the WHO's advice, for your days, your time and the equipment you
-          have, with sets, rest and countdowns as you go.</p>
+    <section class="tile tile-pine split">
+      <div class="split-text">
+        <div class="tile-text">
+          <p class="eyebrow">Training</p>
+          <h2>A program built around your week.</h2>
+          <p class="sub">Cardio and strength following the WHO's advice, for your days, your time and the equipment you
+            have, with sets, rest and countdowns as you go.</p>
+        </div>
       </div>
-      <img class="tile-image" src="/images/training.webp" alt="" width="1012" height="512" loading="lazy">
+      <div class="split-media pair">
+        <div class="phone"><div class="phone-screen"><img src="/screens/workout.webp" alt="Workout mode: a drawn figure shows the squat, the set's repetitions and Set done" width="600" height="1336" loading="lazy"></div></div>
+        <div class="phone"><div class="phone-screen"><img src="/screens/exercise.webp" alt="An exercise: the figure, the muscles at work and how to do it" width="600" height="1336" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <div class="tile-row">
-      <section class="tile tile-lake">
+    <section class="tile tile-lake split split-flip">
+      <div class="split-text">
         <div class="tile-text">
           <p class="eyebrow">Sleep</p>
           <h2>See what goes with your nights.</h2>
           <p class="sub">Log them yourself or read them from your watch. Regularity, late coffee, training and
             food.</p>
         </div>
-        <img class="tile-image" src="/images/sleep.webp" alt="" width="1012" height="484" loading="lazy">
-      </section>
+      </div>
+      <div class="split-media pair">
+        <div class="phone"><div class="phone-screen"><img src="/screens/sleep-week.webp" alt="Sleep this week: hours a night against your goal, and what affects your sleep" width="600" height="1336" loading="lazy"></div></div>
+        <div class="phone"><div class="phone-screen"><img src="/screens/sleep-coach.webp" alt="The sleep coach: bedtime and wake time goals and a wind-down before bed" width="600" height="1336" loading="lazy"></div></div>
+      </div>
+    </section>
 
-      <section class="tile tile-falu">
+    <section class="tile tile-falu split">
+      <div class="split-text">
         <div class="tile-text">
           <p class="eyebrow">Food</p>
           <h2>Eat well without counting calories.</h2>
           <p class="sub">A food score built on the Swedish Food Agency's dietary advice, and more than 40 recipes.</p>
         </div>
-        <img class="tile-image" src="/images/nutrition.webp" alt="" width="1012" height="484" loading="lazy">
-      </section>
-    </div>
+      </div>
+      <div class="split-media pair">
+        <div class="phone"><div class="phone-screen"><img src="/screens/recipes.webp" alt="Recipes for what is missing today, each with what it adds to the food score" width="600" height="1336" loading="lazy"></div></div>
+        <div class="phone"><div class="phone-screen"><img src="/screens/recipe.webp" alt="A recipe: what one serving gives, the ingredients and how to make it" width="600" height="1336" loading="lazy"></div></div>
+      </div>
+    </section>
 
     <section class="details" aria-labelledby="details-title">
       <h2 id="details-title">And the small things.</h2>
+      <div class="strip">
+        <figure><div class="phone"><div class="phone-screen"><img src="/screens/breathing.webp" alt="Box breathing: a circle that grows and shrinks with your breath" width="600" height="1336" loading="lazy"></div></div><figcaption>Breathing</figcaption></figure>
+        <figure><div class="phone"><div class="phone-screen"><img src="/screens/habits.webp" alt="Your habits: what you keep this week, and a suggestion from your own patterns" width="600" height="1336" loading="lazy"></div></div><figcaption>Habits</figcaption></figure>
+        <figure class="strip-widget"><img class="widget" src="/screens/widget.webp" alt="The home screen widget: the next step and the day's sleep, training, food, water and habits" width="720" height="565" loading="lazy"><figcaption>Widget</figcaption></figure>
+      </div>
       <div class="detail-grid">
         <div class="detail">
           <p class="fact-title">Readiness</p>

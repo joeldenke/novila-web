@@ -2,7 +2,8 @@
     <section class="tile tile-hero">
       <div class="tile-text">
         <p class="eyebrow">Novila</p>
-        <h1>Träning, sömn och kost. Tillsammans.</h1>
+        <h1>Träning, sömn och kost. <span class="lit">Tillsammans.</span></h1>
+        <div class="horizon" role="img" data-label="Där dagen är nu: %s" data-dawn="Gryning" data-day="Dag" data-dusk="Skymning" data-night="Natt"><span class="horizon-sun"></span><span class="horizon-now"></span></div>
         <p class="sub">En lugn coach som säger vad som är nästa steg i dag, och varför. Allt stannar i telefonen.</p>
         <ul class="promises" aria-label="Novilas löften">
           <li>Ingen reklam</li>
@@ -14,7 +15,6 @@
             Google-konto.</span></p>
       </div>
       <div class="hero-stage">
-        <img class="hero-scene" src="/images/welcome.webp" alt="" width="1012" height="500">
         <div class="phone"><div class="phone-screen"><img src="/screens/today.webp" alt="Novilas Idag-skärm: dagens balans, din dag och insikter" width="600" height="1336"></div></div>
       </div>
     </section>
@@ -42,26 +42,31 @@
       </div>
     </section>
 
-    <section class="tile tile-night">
-      <div class="tile-text">
-        <p class="eyebrow">Privat från grunden</p>
-        <h2>Det du loggar är ditt.</h2>
-        <p class="sub">Ingen reklam och inga analysverktyg. Dina data finns i din telefon, och du kan spara en egen
-          kopia eller radera allt när du vill.</p>
+    <section class="tile tile-night split">
+      <div class="split-text">
+        <div class="tile-text">
+          <p class="eyebrow">Privat från grunden</p>
+          <h2>Det du loggar är ditt.</h2>
+          <p class="sub">Ingen reklam och inga analysverktyg. Dina data finns i din telefon, och du kan spara en egen
+            kopia eller radera allt när du vill.</p>
+        </div>
+        <div class="facts">
+          <div class="fact">
+            <p class="fact-title">Varje råd har ett skäl.</p>
+            <p>Ingen språkmodell. Planen och insikterna görs av tydliga regler som förklarar sig själva.</p>
+          </div>
+          <div class="fact">
+            <p class="fact-title">En missad dag bryter inget.</p>
+            <p>Vanor räknas i hela veckor, och vilodagar räknas också.</p>
+          </div>
+          <div class="fact">
+            <p class="fact-title">Ett samband, aldrig ett bevis.</p>
+            <p>Varje insikt säger hur många nätter eller dagar den bygger på.</p>
+          </div>
+        </div>
       </div>
-      <div class="facts">
-        <div class="fact">
-          <p class="fact-title">Varje råd har ett skäl.</p>
-          <p>Ingen språkmodell. Planen och insikterna görs av tydliga regler som förklarar sig själva.</p>
-        </div>
-        <div class="fact">
-          <p class="fact-title">En missad dag bryter inget.</p>
-          <p>Vanor räknas i hela veckor, och vilodagar räknas också.</p>
-        </div>
-        <div class="fact">
-          <p class="fact-title">Ett samband, aldrig ett bevis.</p>
-          <p>Varje insikt säger hur många nätter eller dagar den bygger på.</p>
-        </div>
+      <div class="split-media">
+        <div class="phone"><div class="phone-screen"><img src="/screens/insights.webp" alt="Insikter i Novila: vad som hänger ihop med dina nätter, var och en med hur många nätter den bygger på" width="600" height="1336" loading="lazy"></div></div>
       </div>
     </section>
 
@@ -95,7 +100,6 @@
           breda och det som stöder den bredvid. På en vikbar möts de vid vecket, så inget ligger över det.</p>
       </div>
       <div class="device-stage">
-        <img class="device-scene" src="/images/devices.webp" alt="" width="1012" height="512" loading="lazy">
         <figure class="device-figure">
           <div class="tablet"><div class="tablet-screen"><img src="/screens/tablet.webp" alt="Idag på en liggande surfplatta: balansen och din dag som fyra rutor, med insikterna bredvid" width="1600" height="1067" loading="lazy"></div></div>
           <figcaption>Surfplatta</figcaption>
@@ -107,39 +111,57 @@
       </div>
     </section>
 
-    <section class="tile tile-pine">
-      <div class="tile-text">
-        <p class="eyebrow">Träning</p>
-        <h2>Ett program efter din vecka.</h2>
-        <p class="sub">Kondition och styrka efter WHO:s råd, för dina dagar, din tid och redskapen du har. Set, vila och
-          nedräkning medan du tränar.</p>
+    <section class="tile tile-pine split">
+      <div class="split-text">
+        <div class="tile-text">
+          <p class="eyebrow">Träning</p>
+          <h2>Ett program efter din vecka.</h2>
+          <p class="sub">Kondition och styrka efter WHO:s råd, för dina dagar, din tid och redskapen du har. Set, vila och
+            nedräkning medan du tränar.</p>
+        </div>
       </div>
-      <img class="tile-image" src="/images/training.webp" alt="" width="1012" height="512" loading="lazy">
+      <div class="split-media pair">
+        <div class="phone"><div class="phone-screen"><img src="/screens/workout.webp" alt="Träningsläget: en ritad figur visar knäböjen, setets repetitioner och Set klart" width="600" height="1336" loading="lazy"></div></div>
+        <div class="phone"><div class="phone-screen"><img src="/screens/exercise.webp" alt="En övning: figuren, musklerna som arbetar och hur man gör" width="600" height="1336" loading="lazy"></div></div>
+      </div>
     </section>
 
-    <div class="tile-row">
-      <section class="tile tile-lake">
+    <section class="tile tile-lake split split-flip">
+      <div class="split-text">
         <div class="tile-text">
           <p class="eyebrow">Sömn</p>
           <h2>Se vad som hänger ihop med dina nätter.</h2>
           <p class="sub">Logga dem själv eller läs dem från din klocka. Regelbundenhet, sent kaffe, träning och
             mat.</p>
         </div>
-        <img class="tile-image" src="/images/sleep.webp" alt="" width="1012" height="484" loading="lazy">
-      </section>
+      </div>
+      <div class="split-media pair">
+        <div class="phone"><div class="phone-screen"><img src="/screens/sleep-week.webp" alt="Sömnen den här veckan: timmar per natt mot ditt mål, och vad som påverkar sömnen" width="600" height="1336" loading="lazy"></div></div>
+        <div class="phone"><div class="phone-screen"><img src="/screens/sleep-coach.webp" alt="Sömncoachen: mål för läggdags och uppvaknande och en nedvarvning före sänggåendet" width="600" height="1336" loading="lazy"></div></div>
+      </div>
+    </section>
 
-      <section class="tile tile-falu">
+    <section class="tile tile-falu split">
+      <div class="split-text">
         <div class="tile-text">
           <p class="eyebrow">Kost</p>
           <h2>Ät bra utan att räkna kalorier.</h2>
           <p class="sub">En kostpoäng byggd på Livsmedelsverkets kostråd, och fler än 40 recept.</p>
         </div>
-        <img class="tile-image" src="/images/nutrition.webp" alt="" width="1012" height="484" loading="lazy">
-      </section>
-    </div>
+      </div>
+      <div class="split-media pair">
+        <div class="phone"><div class="phone-screen"><img src="/screens/recipes.webp" alt="Recept för det som fattas i dag, vart och ett med vad det ger kostpoängen" width="600" height="1336" loading="lazy"></div></div>
+        <div class="phone"><div class="phone-screen"><img src="/screens/recipe.webp" alt="Ett recept: vad en portion ger, ingredienserna och hur man gör" width="600" height="1336" loading="lazy"></div></div>
+      </div>
+    </section>
 
     <section class="details" aria-labelledby="details-title">
       <h2 id="details-title">Och de små sakerna.</h2>
+      <div class="strip">
+        <figure><div class="phone"><div class="phone-screen"><img src="/screens/breathing.webp" alt="Boxandning: en cirkel som växer och krymper med andetaget" width="600" height="1336" loading="lazy"></div></div><figcaption>Andning</figcaption></figure>
+        <figure><div class="phone"><div class="phone-screen"><img src="/screens/habits.webp" alt="Dina vanor: det du håller den här veckan, och ett förslag från dina egna mönster" width="600" height="1336" loading="lazy"></div></div><figcaption>Vanor</figcaption></figure>
+        <figure class="strip-widget"><img class="widget" src="/screens/widget.webp" alt="Widgeten på hemskärmen: nästa steg och dagens sömn, träning, kost, vatten och vanor" width="720" height="565" loading="lazy"><figcaption>Widget</figcaption></figure>
+      </div>
       <div class="detail-grid">
         <div class="detail">
           <p class="fact-title">Dagsformen</p>
