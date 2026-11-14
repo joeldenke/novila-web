@@ -15,6 +15,7 @@ paragraphs, "- " lists, *emphasis*, **strong**, `code` and [links](https://...).
 build instead of reaching the page.
 """
 
+import hashlib
 import html
 import json
 import re
@@ -142,6 +143,17 @@ def document_section(path, section):
     return lines[start:end]
 
 
+# Files that change in place get their content's hash in the address (style.css?v=…), so a browser never pairs a
+# new page with an old copy, or half of one, from its cache.
+VERSIONED = re.compile(r'((?:src|href)="[^"]*?)(style\.css|icon\.png|screens/[\w-]+\.webp)"')
+
+
+def versioned(match):
+    source = ICON if match.group(2) == "icon.png" else SITE / match.group(2)
+    digest = hashlib.sha256(source.read_bytes()).hexdigest()[:10]
+    return f'{match.group(1)}{match.group(2)}?v={digest}"'
+
+
 def url(path):
     return f"{DOMAIN}/{path}"
 
@@ -189,6 +201,7 @@ def render(page, lang, title, description, body):
     text = re.sub(r"\{\{(\w+)\}\}", value, layout)
     # Links in the layout are written from the root; make them relative so the site also works from a folder.
     text = text.replace('href="/', f'href="{values["root"]}').replace('src="/', f'src="{values["root"]}')
+    text = VERSIONED.sub(versioned, text)
     target = OUT / path / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(text, encoding="utf-8")
