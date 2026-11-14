@@ -366,7 +366,7 @@ html[data-light] .horizon {
   transform: translateX(-50%);
 }
 
-/* The three promises under the headline: glass pills, each with a small sun. */
+/* The promises under the headline: glass pills, each with a small sun. */
 
 .promises {
   display: flex;
