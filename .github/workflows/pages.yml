@@ -15,7 +15,6 @@ on:
       - docs/play-icon.png
       - feature/onboarding/src/main/res/drawable-nodpi/**
       - core/designsystem/src/main/res/font/**
-      - feature/*/src/test/screenshots/**
       - .github/workflows/pages.yml
   push:
     branches: [main]
@@ -27,7 +26,6 @@ on:
       - docs/play-icon.png
       - feature/onboarding/src/main/res/drawable-nodpi/**
       - core/designsystem/src/main/res/font/**
-      - feature/*/src/test/screenshots/**
       - .github/workflows/pages.yml
   workflow_dispatch:
 
