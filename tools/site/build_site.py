@@ -4,8 +4,9 @@
 The site has a home page, questions and answers, the privacy policy and the terms of use, in English (at the root) and
 Swedish (under /sv). The home pages and the questions are written by hand in site/; the policy and the terms are made
 from docs/privacy-policy.md and docs/terms-of-use.md, the only copy of each: the app links here instead of showing
-them. The scenes are the site's own (site/images); the fonts are copied from the app, and the phones, the tablet and
-the foldable show the app's own screens from its screenshot references, so the site looks like the app.
+them. The site is in Nordic light like the app, and every picture is the app itself: the fonts are copied from the
+app, and the phones, the tablet, the foldable and the widget show its own screens, which tools/site/screens.py cuts
+from its screenshot references into site/screens.
 
     python3 tools/site/build_site.py
 
@@ -27,24 +28,8 @@ OUT = ROOT / "build" / "site"
 DOMAIN = "https://novila.app"
 
 FONTS = ROOT / "core" / "designsystem" / "src" / "main" / "res" / "font"
-FONT_LICENSE = ROOT / "core" / "designsystem" / "src" / "main" / "assets" / "licenses" / "hanken_grotesk_ofl.txt"
+LICENSES = ROOT / "core" / "designsystem" / "src" / "main" / "assets" / "licenses"
 ICON = ROOT / "docs" / "play-icon.png"
-# The app's own screens in the devices, from the screenshot references CI renders and checks (English; phone size, and
-# a landscape tablet and an unfolded phone for the tablet and the foldable).
-SCREENS = {
-    "today": "feature/today/src/test/screenshots/se.novila.feature.today.TodayScreenKt.TodayScreenPreview.H1400dp.png",
-    "training": "feature/training/src/test/screenshots/"
-    "se.novila.feature.training.TrainingScreenKt.TrainingScreenPreview.H1600dp_WITH_BACKGROUND.png",
-    "sleep": "feature/sleep/src/test/screenshots/"
-    "se.novila.feature.sleep.SleepScreenKt.SleepScreenPreview.H1000dp_WITH_BACKGROUND.png",
-    "nutrition": "feature/nutrition/src/test/screenshots/"
-    "se.novila.feature.nutrition.NutritionScreenKt.NutritionScreenPreview.H1200dp_WITH_BACKGROUND.png",
-    "tablet": "feature/today/src/test/screenshots/"
-    "se.novila.feature.today.TodayScreenKt.TodayScreenLandscapePreview.W1200dp_H800dp.png",
-    "foldable": "feature/training/src/test/screenshots/"
-    "se.novila.feature.training.TrainingScreenKt.TrainingScreenFoldablePreview.W852dp_H880dp_WITH_BACKGROUND.png",
-}
-
 LANGUAGES = {
     "en": {
         "prefix": "",
@@ -277,11 +262,12 @@ def main():
     (OUT / "fonts").mkdir()
     for weight in ("regular", "semibold", "bold"):
         shutil.copy(FONTS / f"hanken_grotesk_{weight}.ttf", OUT / "fonts")
-    shutil.copy(FONT_LICENSE, OUT / "fonts" / "OFL.txt")
-    shutil.copytree(SITE / "images", OUT / "images")
-    (OUT / "screens").mkdir()
-    for name, source in SCREENS.items():
-        shutil.copy(ROOT / source, OUT / "screens" / f"{name}.png")
+    for weight in ("light", "medium", "semibold"):
+        shutil.copy(FONTS / f"bricolage_grotesque_{weight}.ttf", OUT / "fonts")
+    shutil.copy(LICENSES / "hanken_grotesk_ofl.txt", OUT / "fonts" / "OFL.txt")
+    shutil.copy(LICENSES / "bricolage_grotesque_ofl.txt", OUT / "fonts" / "OFL-bricolage-grotesque.txt")
+    # The app's own screens in the devices, made small by tools/site/screens.py from its screenshot references.
+    shutil.copytree(SITE / "screens", OUT / "screens")
 
     # GitHub Pages serves it for every missing path, at any depth, so its links are written from the root.
     shutil.copy(SITE / "404.html", OUT / "404.html")
