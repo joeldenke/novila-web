@@ -15,7 +15,7 @@ första ---, eftersom webbplatsens byggskript inte publicerar den här delen och
 
 ## English
 
-*Updated 13 November 2026*
+*Updated 14 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -26,7 +26,8 @@ What you enter yourself: your name, birth year, height, weight and body measurem
 affected a night, such as your period), food (with the meals you write in your own words and star, for quick logging, and the time of day you
 log a meal, to draw the day's meals),
 drinks and workouts, with the repetitions and weights you did and effort and pain after a session; your answers to the training and
-sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
+sleep coaches, with the focus you choose (and the date and distance of a race you train for) and, if you choose *Standing steady*, your
+results in its two tests; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose),
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
 the ones you let go), the experiments you start (the question, which
@@ -147,7 +148,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 13 november 2026*
+*Uppdaterad 14 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -158,6 +159,7 @@ Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, di
 till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning, och klockslaget du
 loggar en måltid, för att rita dagens måltider), dryck och dina
 pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta efter ett pass, dina svar till tränings- och sömncoachen,
+med fokuset du väljer (och datum och distans för ett lopp du tränar mot) och, om du väljer *Stå stadigt*, dina resultat i dess två tester,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer), vanorna du väljer att behålla (med dagarna
 du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
