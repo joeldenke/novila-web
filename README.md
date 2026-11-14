@@ -26,7 +26,8 @@ When the app changes something an answer describes (a setting's name, what Healt
 the answer in the same pull request as the copied files.
 - `docs/privacy-policy.md`, `docs/terms-of-use.md` – the policy and the terms (the app links to novila.app)
 - `docs/play-icon.png` – the icon
-- `core/designsystem/src/main/res/font/hanken_grotesk_*.ttf` and its licence in `core/designsystem/src/main/assets`
+- `core/designsystem/src/main/res/font/hanken_grotesk_*.ttf` (all text) and `bricolage_grotesque_{medium,semibold}.ttf`
+  (the h1 and h2 headings, as titles in the app), with their licences in `core/designsystem/src/main/assets`
 - `feature/*/src/test/screenshots/…` – the app's screenshot references the phones, the tablet and the foldable show
   (`SCREENS` in the builder)
 

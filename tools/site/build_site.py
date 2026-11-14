@@ -27,7 +27,7 @@ OUT = ROOT / "build" / "site"
 DOMAIN = "https://novila.app"
 
 FONTS = ROOT / "core" / "designsystem" / "src" / "main" / "res" / "font"
-FONT_LICENSE = ROOT / "core" / "designsystem" / "src" / "main" / "assets" / "licenses" / "hanken_grotesk_ofl.txt"
+LICENSES = ROOT / "core" / "designsystem" / "src" / "main" / "assets" / "licenses"
 ICON = ROOT / "docs" / "play-icon.png"
 # The app's own screens in the devices, from the screenshot references CI renders and checks (English; phone size, and
 # a landscape tablet and an unfolded phone for the tablet and the foldable).
@@ -277,7 +277,10 @@ def main():
     (OUT / "fonts").mkdir()
     for weight in ("regular", "semibold", "bold"):
         shutil.copy(FONTS / f"hanken_grotesk_{weight}.ttf", OUT / "fonts")
-    shutil.copy(FONT_LICENSE, OUT / "fonts" / "OFL.txt")
+    for weight in ("medium", "semibold"):
+        shutil.copy(FONTS / f"bricolage_grotesque_{weight}.ttf", OUT / "fonts")
+    shutil.copy(LICENSES / "hanken_grotesk_ofl.txt", OUT / "fonts" / "OFL.txt")
+    shutil.copy(LICENSES / "bricolage_grotesque_ofl.txt", OUT / "fonts" / "OFL-bricolage-grotesque.txt")
     shutil.copytree(SITE / "images", OUT / "images")
     (OUT / "screens").mkdir()
     for name, source in SCREENS.items():
