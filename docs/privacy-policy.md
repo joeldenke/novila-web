@@ -30,7 +30,8 @@ say you have on a day, if you answer Today's question about it; your answers to 
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose and, toward a race, its date, sport and distance),
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
-the ones you let go), the experiments you start (the question, which
+the ones you let go), quiet mode (whether it is on, the habits you pick as most important on a quiet day and the days it
+was on), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
 time and never saved), what you tell Novila when you answer *Doesn't fit me* or *Not for me* (for example that the training plan is
 too hard, or that a kind of insight isn't for you, kept so Novila changes and you can take it back under *What Novila
@@ -74,8 +75,8 @@ and the next set. A habit's reminder shows the habit's name and how far the day 
 buttons that log it without opening the app; on the lock screen it only says that it is about habits. The widget, if
 you add it, shows today's balance, sleep, food and water on your home screen, with a button that logs a glass of
 water. The Quick Settings tiles, if you add
-them, show today's glasses of water and, for a habit you tie to a tile, its name and how far the day is, but never the
-day's count on the lock screen. Anyone who sees your phone can see them. You can turn reminders off and remove the
+them, show today's glasses of water, whether quiet mode is on and, for a habit you tie to a tile, its name and how far
+the day is, but never the day's count on the lock screen. Anyone who sees your phone can see them. You can turn reminders off and remove the
 widget and the tiles at any time.
 
 ### You decide
@@ -164,7 +165,8 @@ pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta ef
 har en dag, om du svarar på frågan om det på Idag, dina svar till tränings- och sömncoachen,
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer och, mot ett lopp, dess datum, gren och distans), vanorna du väljer att behålla (med dagarna
-du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
+du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), lugnt läge (om det är på,
+vanorna du väljer som viktigast en lugn dag och dagarna det var på), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
 följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), det du säger till Novila när du svarar *Passar
 inte mig* (till exempel att träningsplanen är för tung eller att en sorts insikt inte är för dig, sparat så att Novila
 ändras och du kan ta tillbaka det under *Det Novila lärt sig*), hur du tar emot Novilas råd (för varje sorts råd, till
@@ -210,8 +212,8 @@ Påminnelser du slår på visar en kort notis, och under ett pass visar en notis
 vanas påminnelse visar vanans namn och hur långt dagen har kommit (till exempel "4 av 8 glas"), med knappar som
 loggar den utan att öppna appen; på låsskärmen står bara att den gäller vanor. Widgeten visar, om du lägger till den,
 dagens balans, sömn, kost och vatten på hemskärmen, med en knapp som loggar ett glas vatten. Rutorna i snabbinställningarna visar, om du lägger till dem,
-dagens glas vatten och, för en vana du kopplar till en ruta, dess namn och hur långt dagen har kommit, men aldrig
-dagens antal på låsskärmen. Den som ser din telefon kan se dem. Du kan när som helst stänga av påminnelserna och ta
+dagens glas vatten, om lugnt läge är på och, för en vana du kopplar till en ruta, dess namn och hur långt dagen har
+kommit, men aldrig dagens antal på låsskärmen. Den som ser din telefon kan se dem. Du kan när som helst stänga av påminnelserna och ta
 bort widgeten och rutorna.
 
 ### Du bestämmer
