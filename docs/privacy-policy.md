@@ -15,14 +15,14 @@ första ---, eftersom webbplatsens byggskript inte publicerar den här delen och
 
 ## English
 
-*Updated 17 November 2026*
+*Updated 18 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
 
 ### What Novila handles
 
-What you enter yourself: your name, birth year, height, weight and body measurements, and the results of *Stand steady*'s two tests (how many times you rose from a chair in 30 seconds and the balance stage you held), shown only as your own results over time; your sleep (with what may have
+What you enter yourself: your name, birth year, height, weight and body measurements, the town you pick so Novila can work out sunrise and sunset on the phone (chosen from a list, never your location), and the results of *Stand steady*'s two tests (how many times you rose from a chair in 30 seconds and the balance stage you held), shown only as your own results over time; your sleep (with what may have
 affected a night, such as your period), food (with the meals you write in your own words and star, for quick logging, and the time of day you
 log a meal, to draw the day's meals),
 drinks and workouts, with the repetitions and weights you did and effort and pain after a session; how much energy you
@@ -151,14 +151,14 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 17 november 2026*
+*Uppdaterad 18 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
 
 ### Vad Novila hanterar
 
-Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, och resultaten av *Stå stadigts* två tester (hur många gånger du reste dig från en stol på 30 sekunder och balanssteget du klarade), som bara visas som dina egna resultat över tid, din sömn (med det som kan ha påverkat natten,
+Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, orten du väljer så att Novila kan räkna ut när solen går upp och ner på telefonen (vald ur en lista, aldrig din plats), och resultaten av *Stå stadigts* två tester (hur många gånger du reste dig från en stol på 30 sekunder och balanssteget du klarade), som bara visas som dina egna resultat över tid, din sömn (med det som kan ha påverkat natten,
 till exempel mens), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning, och klockslaget du
 loggar en måltid, för att rita dagens måltider), dryck och dina
 pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta efter ett pass, hur mycket ork du säger att du
