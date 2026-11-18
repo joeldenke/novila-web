@@ -61,13 +61,25 @@ only to show your day, your nights, your trends and your recovery and to plan yo
 your history, Novila keeps a copy of the latest workouts, nights and recovery it read, encrypted on the phone like
 everything else; it is replaced at every read and removed as soon as access is turned off, or when you delete your
 data. Novila never writes to Health Connect, never sends or shares the data, and never puts it in backups or in your
-copy of your data. Novila's use of data from Health Connect follows the Health Connect permissions policy, including
+copy of your data. An insight Novila drew from it can leave the phone only in a picture you choose to share yourself
+(see *Sharing a picture*), never the data as it was read. Novila's use of data from Health Connect follows the Health Connect permissions policy, including
 its Limited Use requirements. You can turn off access at any time in Health Connect.
 
 ### Shared with no one
 
 Novila has no ads, no analytics and no tracking. Your data is not sold, not shared with anyone and not used for
 advertising. The developer never receives it.
+
+### Sharing a picture
+
+You can choose to share a recipe you wrote, an insight or an experiment's answer as pictures. Novila draws them on the
+phone and shows them before you share, and you choose which go. A picture holds only what Novila concluded or what you
+wrote, in words: never the data as it was read from Health Connect or logged (no nights, steps, heart rate or hours),
+never your name and never a date. An insight or an experiment's answer is health information, so it is shared only
+after you have ticked, each time, that you want to share it. The pictures are handed to the app you pick through
+Android's own share sheet, and that app's terms then apply to them. Novila sends nothing itself and never learns where
+they went. Only the latest pictures stay in the app's temporary storage on the phone, until you share again or Android
+clears it.
 
 ### Notifications, the widget and the tiles
 
@@ -199,7 +211,9 @@ Uppgifterna används bara för att visa din dag, dina nätter, dina trender och 
 träning. För att appen ska öppna med din historik sparar Novila en kopia av de senaste träningspassen, nätterna och
 återhämtningen den läste, krypterad på telefonen som allt annat; den ersätts vid varje läsning och tas bort så fort
 åtkomsten stängs av eller när du raderar dina data. Novila skriver aldrig till Health Connect, skickar eller delar
-aldrig uppgifterna och lägger dem aldrig i säkerhetskopior eller i din kopia av dina data. Novilas användning av
+aldrig uppgifterna och lägger dem aldrig i säkerhetskopior eller i din kopia av dina data. En insikt som Novila dragit
+av dem kan lämna telefonen bara i en bild du själv väljer att dela (se *Dela en bild*), aldrig uppgifterna som de
+lästes. Novilas användning av
 data från Health Connect följer Health Connects behörighetspolicy, inklusive kraven på begränsad användning (Limited
 Use). Du kan när som helst stänga av åtkomsten i Health Connect.
 
@@ -207,6 +221,17 @@ Use). Du kan när som helst stänga av åtkomsten i Health Connect.
 
 Novila har ingen reklam, inga analysverktyg och ingen spårning. Din data säljs inte, delas inte med någon och
 används inte för reklam. Utvecklaren får aldrig del av den.
+
+### Dela en bild
+
+Du kan själv välja att dela ett recept du skrivit, en insikt eller ett experiments svar som bilder. Novila ritar dem
+på telefonen och visar dem innan du delar, och du väljer vilka som ska med. En bild innehåller bara det Novila kommit
+fram till eller det du skrivit, i ord: aldrig uppgifterna som de lästes från Health Connect eller loggades (inga
+nätter, steg, puls eller timmar), aldrig ditt namn och aldrig ett datum. En insikt eller ett experiments svar är
+hälsouppgifter, så de delas bara sedan du varje gång kryssat i att du vill dela dem. Bilderna lämnas med Androids egen
+delningsmeny till den app du väljer, och den appens villkor gäller sedan för dem. Novila skickar inget själv och får
+aldrig veta vart de gick. Bara de senaste bilderna ligger kvar i appens tillfälliga minne på telefonen, tills du delar
+igen eller Android rensar det.
 
 ### Notiser, widgeten och rutorna
 
