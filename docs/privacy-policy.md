@@ -35,7 +35,8 @@ was on), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
 time and never saved), what you tell Novila when you answer *Doesn't fit me* or *Not for me* (for example that the training plan is
 too hard, or that a kind of insight isn't for you, kept so Novila changes and you can take it back under *What Novila
-has learned*), how you take Novila's advice (for each kind of advice, such as a tip of the day or an insight, how often
+has learned*), what you say you believe about your own sleep with *I think that…* (a cause from Novila's list, what
+it affects and which way, with the date), how you take Novila's advice (for each kind of advice, such as a tip of the day or an insight, how often
 you followed it, said it rings true or passed it over and the dates, so advice you rarely use comes less
 often and rests for a while), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
 the first week lighter after a break, and for the first two weeks which of the places suggested under Discover Novila you have opened, so they can be ticked off; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
@@ -169,7 +170,8 @@ du höll dem, dina svar varje månad om hur automatisk varje vana känns och de 
 vanorna du väljer som viktigast en lugn dag och dagarna det var på), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
 följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), det du säger till Novila när du svarar *Passar
 inte mig* (till exempel att träningsplanen är för tung eller att en sorts insikt inte är för dig, sparat så att Novila
-ändras och du kan ta tillbaka det under *Det Novila lärt sig*), hur du tar emot Novilas råd (för varje sorts råd, till
+ändras och du kan ta tillbaka det under *Det Novila lärt sig*), det du säger att du tror om din egen sömn med *Jag
+tror att…* (en orsak ur Novilas lista, vad den påverkar och åt vilket håll, med datum), hur du tar emot Novilas råd (för varje sorts råd, till
 exempel ett dagens tips eller en insikt, hur ofta du följde det, sa att det stämmer eller gick förbi det och
 datumen, så att råd du sällan använder kommer mer sällan och vilar ett tag), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
