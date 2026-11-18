@@ -73,7 +73,9 @@ advertising. The developer never receives it.
 
 You can choose to share an insight, a recipe of your own or an experiment's result as a picture. Novila draws the
 picture on the phone and shows it before you share, and you choose which pictures go; your own numbers, such as the
-hours in an experiment, are not chosen to begin with. The picture shows no name and no dates. It is handed to the app
+hours in an experiment, are not chosen to begin with. A picture that carries your health data (an insight or an
+experiment's result, which may build on what Novila read from Health Connect) is only shared after you have ticked,
+each time, that you want to share that health data. The picture shows no name and no dates. It is handed to the app
 you pick through Android's own share sheet, and that app's terms then apply to the picture. Novila sends nothing
 itself and never learns where the picture went. Only the latest picture stays in the app's temporary storage on the
 phone, until you share the next one or Android clears it.
@@ -221,7 +223,9 @@ används inte för reklam. Utvecklaren får aldrig del av den.
 
 Du kan själv välja att dela en insikt, ett eget recept eller ett experiments resultat som bild. Novila ritar bilden
 på telefonen och visar den innan du delar, och du väljer vilka bilder som ska med; dina egna siffror, som timmarna i
-ett experiment, är inte valda från början. Bilden visar inget namn och inga datum. Den lämnas med Androids egen
+ett experiment, är inte valda från början. En bild som bär dina hälsouppgifter (en insikt eller ett experiments
+resultat, som kan bygga på det Novila läst från Health Connect) delas bara sedan du varje gång har kryssat i att du
+vill dela de hälsouppgifterna. Bilden visar inget namn och inga datum. Den lämnas med Androids egen
 delningsmeny till den app du väljer, och den appens villkor gäller sedan för bilden. Novila skickar inget själv och
 får aldrig veta vart bilden gick. Bara den senaste bilden ligger kvar i appens tillfälliga minne på telefonen, tills
 du delar nästa eller Android rensar det.
