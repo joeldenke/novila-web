@@ -59,9 +59,8 @@ what was recorded before you connected (history) and reads the same data a few t
 only to show your day, your nights, your trends and your recovery and to plan your training. So the app opens with
 your history, Novila keeps a copy of the latest workouts, nights and recovery it read, encrypted on the phone like
 everything else; it is replaced at every read and removed as soon as access is turned off, or when you delete your
-data. Novila never writes to Health Connect, never sends the data anywhere on its own, and never puts it in backups or
-in your copy of your data; it only leaves the phone in a picture you choose to share yourself (see *Sharing a
-picture*). Novila's use of data from Health Connect follows the Health Connect permissions policy, including
+data. Novila never writes to Health Connect, never sends or shares the data, and never puts it in backups or in your
+copy of your data. Novila's use of data from Health Connect follows the Health Connect permissions policy, including
 its Limited Use requirements. You can turn off access at any time in Health Connect.
 
 ### Shared with no one
@@ -69,16 +68,14 @@ its Limited Use requirements. You can turn off access at any time in Health Conn
 Novila has no ads, no analytics and no tracking. Your data is not sold, not shared with anyone and not used for
 advertising. The developer never receives it.
 
-### Sharing a picture
+### Sharing a recipe
 
-You can choose to share an insight, a recipe of your own or an experiment's result as a picture. Novila draws the
-picture on the phone and shows it before you share, and you choose which pictures go; your own numbers, such as the
-hours in an experiment, are not chosen to begin with. A picture that carries your health data (an insight or an
-experiment's result, which may build on what Novila read from Health Connect) is only shared after you have ticked,
-each time, that you want to share that health data. The picture shows no name and no dates. It is handed to the app
-you pick through Android's own share sheet, and that app's terms then apply to the picture. Novila sends nothing
-itself and never learns where the picture went. Only the latest picture stays in the app's temporary storage on the
-phone, until you share the next one or Android clears it.
+You can choose to share a recipe you wrote yourself as pictures. Novila draws them on the phone and shows them before
+you share, and you choose which go. They hold only the recipe (its name, time, allergens, ingredients and steps), never
+your name, a date or any health data: what you log, your insights and experiments and what is read from Health Connect
+are never shared. The pictures are handed to the app you pick through Android's own share sheet, and that app's terms
+then apply to them. Novila sends nothing itself and never learns where they went. Only the latest pictures stay in the
+app's temporary storage on the phone, until you share again or Android clears it.
 
 ### Notifications, the widget and the tiles
 
@@ -208,9 +205,8 @@ det som registrerades innan du anslöt (historik) och samma uppgifter några gå
 Uppgifterna används bara för att visa din dag, dina nätter, dina trender och din återhämtning och för att planera din
 träning. För att appen ska öppna med din historik sparar Novila en kopia av de senaste träningspassen, nätterna och
 återhämtningen den läste, krypterad på telefonen som allt annat; den ersätts vid varje läsning och tas bort så fort
-åtkomsten stängs av eller när du raderar dina data. Novila skriver aldrig till Health Connect, skickar aldrig
-uppgifterna någonstans av sig själv och lägger dem aldrig i säkerhetskopior eller i din kopia av dina data; de lämnar
-bara telefonen i en bild som du själv väljer att dela (se *Dela en bild*). Novilas användning av
+åtkomsten stängs av eller när du raderar dina data. Novila skriver aldrig till Health Connect, skickar eller delar
+aldrig uppgifterna och lägger dem aldrig i säkerhetskopior eller i din kopia av dina data. Novilas användning av
 data från Health Connect följer Health Connects behörighetspolicy, inklusive kraven på begränsad användning (Limited
 Use). Du kan när som helst stänga av åtkomsten i Health Connect.
 
@@ -219,16 +215,14 @@ Use). Du kan när som helst stänga av åtkomsten i Health Connect.
 Novila har ingen reklam, inga analysverktyg och ingen spårning. Din data säljs inte, delas inte med någon och
 används inte för reklam. Utvecklaren får aldrig del av den.
 
-### Dela en bild
+### Dela ett recept
 
-Du kan själv välja att dela en insikt, ett eget recept eller ett experiments resultat som bild. Novila ritar bilden
-på telefonen och visar den innan du delar, och du väljer vilka bilder som ska med; dina egna siffror, som timmarna i
-ett experiment, är inte valda från början. En bild som bär dina hälsouppgifter (en insikt eller ett experiments
-resultat, som kan bygga på det Novila läst från Health Connect) delas bara sedan du varje gång har kryssat i att du
-vill dela de hälsouppgifterna. Bilden visar inget namn och inga datum. Den lämnas med Androids egen
-delningsmeny till den app du väljer, och den appens villkor gäller sedan för bilden. Novila skickar inget själv och
-får aldrig veta vart bilden gick. Bara den senaste bilden ligger kvar i appens tillfälliga minne på telefonen, tills
-du delar nästa eller Android rensar det.
+Du kan själv välja att dela ett recept du skrivit som bilder. Novila ritar dem på telefonen och visar dem innan du
+delar, och du väljer vilka som ska med. De innehåller bara receptet (namn, tid, allergener, ingredienser och steg),
+aldrig ditt namn, ett datum eller några hälsouppgifter: det du loggar, dina insikter och experiment och det som läses
+från Health Connect delas aldrig. Bilderna lämnas med Androids egen delningsmeny till den app du väljer, och den appens
+villkor gäller sedan för dem. Novila skickar inget själv och får aldrig veta vart de gick. Bara de senaste bilderna
+ligger kvar i appens tillfälliga minne på telefonen, tills du delar igen eller Android rensar det.
 
 ### Notiser, widgeten och rutorna
 
