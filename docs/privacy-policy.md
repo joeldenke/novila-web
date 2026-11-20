@@ -65,6 +65,14 @@ copy of your data. An insight Novila drew from it can leave the phone only in a 
 (see *Sharing a picture*), never the data as it was read. Novila's use of data from Health Connect follows the Health Connect permissions policy, including
 its Limited Use requirements. You can turn off access at any time in Health Connect.
 
+### Your calendar
+
+If you turn on *Find times for me* in the training coach, Novila asks to read your phone's calendar and places the
+week's sessions where you have time. It reads only when this week's busy events start and end, on the phone, when the
+plan is made: never their titles, places, guests or which calendar they are in, and all-day events and events marked
+free are skipped. Nothing from the calendar is saved, put in your copy or sent anywhere. Turn it off in the coach, or
+take back access in the phone's settings.
+
 ### Shared with no one
 
 Novila has no ads, no analytics and no tracking. Your data is not sold, not shared with anyone and not used for
@@ -219,6 +227,14 @@ av dem kan lämna telefonen bara i en bild du själv väljer att dela (se *Dela 
 lästes. Novilas användning av
 data från Health Connect följer Health Connects behörighetspolicy, inklusive kraven på begränsad användning (Limited
 Use). Du kan när som helst stänga av åtkomsten i Health Connect.
+
+### Din kalender
+
+Slår du på *Hitta tider åt mig* i träningscoachen frågar Novila om att få läsa telefonens kalender och lägger veckans
+pass där du har tid. Den läser bara när veckans upptagna händelser börjar och slutar, på telefonen, när planen görs:
+aldrig titel, plats, deltagare eller vilken kalender de ligger i, och heldagshändelser och händelser markerade som
+lediga hoppas över. Inget från kalendern sparas, kommer med i din kopia eller skickas någonstans. Stäng av det i
+coachen, eller ta tillbaka åtkomsten i telefonens inställningar.
 
 ### Delas inte med någon
 
