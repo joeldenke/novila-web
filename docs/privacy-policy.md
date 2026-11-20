@@ -15,7 +15,7 @@ första ---, eftersom webbplatsens byggskript inte publicerar den här delen och
 
 ## English
 
-*Updated 19 November 2026*
+*Updated 20 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -136,7 +136,10 @@ whether you wrote a review.
 
 ### For adults
 
-Novila is made for adults and is not directed at children.
+Novila is made for adults and is not directed at children. Where a law makes Google Play share your age range
+(California and Brazil, from 2027), Novila asks Google Play for it each time it opens. If Google Play says you are
+under 18, Novila shows only that it is made for adults. The age range is never saved or sent anywhere, and where no
+such law applies, Novila asks nothing.
 
 ### Becoming a tester
 
@@ -164,7 +167,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 19 november 2026*
+*Uppdaterad 20 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -288,7 +291,10 @@ skrev en recension.
 
 ### För vuxna
 
-Novila är gjord för vuxna och riktar sig inte till barn.
+Novila är gjord för vuxna och riktar sig inte till barn. Där en lag gör att Google Play delar din åldersgrupp
+(Kalifornien och Brasilien, från 2027) frågar Novila Google Play om den varje gång appen öppnas. Säger Google Play
+att du är under 18 visar Novila bara att appen är gjord för vuxna. Åldersgruppen sparas aldrig och skickas ingenstans,
+och där ingen sådan lag gäller frågar Novila ingenting.
 
 ### Bli testare
 
