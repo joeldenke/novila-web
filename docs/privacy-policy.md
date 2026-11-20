@@ -39,7 +39,9 @@ has learned*), what you say you believe about your own sleep with *I think that�
 it affects and which way, with the date), how you take Novila's advice (for each kind of advice, such as a tip of the day or an insight, how often
 you followed it, said it rings true or passed it over and the dates, so advice you rarely use comes less
 often and rests for a while), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
-the first week lighter after a break, and for the first two weeks which of the places suggested under Discover Novila you have opened, so they can be ticked off; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. Everything is optional, and
+the first week lighter after a break, and for the first two weeks which of the places suggested under Discover Novila you have opened, so they can be ticked off; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. When Sleep asks for your wake time the first
+time, Novila reads when the phone's next alarm rings, only to suggest that time; it is saved only if you keep it as
+your wake time. Everything is optional, and
 Novila works without a name or an account.
 
 ### Where it is kept
@@ -191,7 +193,9 @@ exempel ett dagens tips eller en insikt, hur ofta du följde det, sa att det st�
 datumen, så att råd du sällan använder kommer mer sällan och vilar ett tag), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
 ett uppehåll, och de första två veckorna vilka av ställena under Upptäck Novila du har öppnat, så att de kan bockas av; aldrig hur ofta eller hur länge du använder den. Om du tillåter
-det även det Novila läser från Health Connect, se nedan. Allt är frivilligt, och Novila fungerar utan namn och utan
+det även det Novila läser från Health Connect, se nedan. När Sömn frågar efter din uppvakningstid första gången
+läser Novila när telefonens nästa alarm ringer, bara för att föreslå den tiden; den sparas bara om du behåller den som
+uppvakningstid. Allt är frivilligt, och Novila fungerar utan namn och utan
 konto.
 
 ### Var det sparas
