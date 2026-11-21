@@ -15,7 +15,7 @@ första ---, eftersom webbplatsens byggskript inte publicerar den här delen och
 
 ## English
 
-*Updated 20 November 2026*
+*Updated 21 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -39,7 +39,7 @@ has learned*), what you say you believe about your own sleep with *I think that�
 it affects and which way, with the date), how you take Novila's advice (for each kind of advice, such as a tip of the day or an insight, how often
 you followed it, said it rings true or passed it over and the dates, so advice you rarely use comes less
 often and rests for a while), reminders and settings. Novila also remembers the date you last opened it, only so it can welcome you back and make
-the first week lighter after a break, and for the first two weeks which of the places suggested under Discover Novila you have opened, so they can be ticked off; never how often or how long you use it. If you allow it, also what Novila reads from Health Connect, below. When Sleep asks for your wake time the first
+the first week lighter after a break, and for the first two weeks which of the places suggested under Discover Novila you have opened, so they can be ticked off; never how often or how long you use it. Unless you choose *Steady* under *How much Novila adapts*, it also notes the time of day you first log your night, training and food each day, for the last four weeks only, so a reminder can follow when you usually log; the reminders it moved are listed under *What Novila has learned* with *Undo*. If you allow it, also what Novila reads from Health Connect, below. When Sleep asks for your wake time the first
 time, Novila reads when the phone's next alarm rings, only to suggest that time; it is saved only if you keep it as
 your wake time. Everything is optional, and
 Novila works without a name or an account.
@@ -177,7 +177,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 20 november 2026*
+*Uppdaterad 21 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -200,7 +200,7 @@ tror att…* (en orsak ur Novilas lista, vad den påverkar och åt vilket håll,
 exempel ett dagens tips eller en insikt, hur ofta du följde det, sa att det stämmer eller gick förbi det och
 datumen, så att råd du sällan använder kommer mer sällan och vilar ett tag), påminnelser och inställningar. Novila minns
 också vilken dag du senast öppnade appen, bara för att kunna välkomna dig tillbaka och göra första veckan lättare efter
-ett uppehåll, och de första två veckorna vilka av ställena under Upptäck Novila du har öppnat, så att de kan bockas av; aldrig hur ofta eller hur länge du använder den. Om du tillåter
+ett uppehåll, och de första två veckorna vilka av ställena under Upptäck Novila du har öppnat, så att de kan bockas av; aldrig hur ofta eller hur länge du använder den. Om du inte väljer *Stadigt* under *Hur mycket Novila anpassar* noterar den också vilken tid på dagen du först loggar natten, träningen och maten varje dag, bara de senaste fyra veckorna, så att en påminnelse kan följa när du brukar logga; påminnelserna den flyttat står under *Det Novila lärt sig* med *Ångra*. Om du tillåter
 det även det Novila läser från Health Connect, se nedan. När Sömn frågar efter din uppvakningstid första gången
 läser Novila när telefonens nästa alarm ringer, bara för att föreslå den tiden; den sparas bara om du behåller den som
 uppvakningstid. Allt är frivilligt, och Novila fungerar utan namn och utan
