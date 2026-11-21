@@ -30,8 +30,8 @@ say you have on a day, if you answer Today's question about it; your answers to 
 sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose and, toward a race, its date, sport and distance),
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
-the ones you let go), quiet mode (whether it is on, whether little energy turns it on, the habits you pick as most important on a quiet day and the days it
-was on), the experiments you start (the question, which
+the ones you let go), quiet mode (whether it is on, whether little energy turns it on, the habits you pick as most important on a quiet day, the days it
+was on and, when you pause the week because life happens, the reason you pick (a cold, travel, a heavy week or a new parent) and its length), the experiments you start (the question, which
 days were with and without and the days you say you didn't follow; the answer is worked out from your nights each
 time and never saved), what you tell Novila when you answer *Doesn't fit me* or *Not for me* (for example that the training plan is
 too hard, or that a kind of insight isn't for you, kept so Novila changes and you can take it back under *What Novila
@@ -192,7 +192,7 @@ har en dag, om du svarar på frågan om det på Idag, dina svar till tränings- 
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer och, mot ett lopp, dess datum, gren och distans), vanorna du väljer att behålla (med dagarna
 du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), lugnt läge (om det är på,
-om lite ork ska slå på det, vanorna du väljer som viktigast en lugn dag och dagarna det var på), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
+om lite ork ska slå på det, vanorna du väljer som viktigast en lugn dag, dagarna det var på och, när du pausar veckan för att livet händer, orsaken du väljer (förkylning, resa, en tung vecka eller nybliven förälder) och hur länge), experimenten du startar (frågan, vilka dagar som var med och utan och dagarna du säger att du inte
 följde; svaret räknas ut ur dina nätter varje gång och sparas aldrig), det du säger till Novila när du svarar *Passar
 inte mig* (till exempel att träningsplanen är för tung eller att en sorts insikt inte är för dig, sparat så att Novila
 ändras och du kan ta tillbaka det under *Det Novila lärt sig*), det du säger att du tror om din egen sömn med *Jag
