@@ -15,7 +15,7 @@ första ---, eftersom webbplatsens byggskript inte publicerar den här delen och
 
 ## English
 
-*Updated 21 November 2026*
+*Updated 23 November 2026*
 
 Novila is built so that your health data stays with you. This policy says what the app handles, where it is
 kept, who can see it and what you can do about it.
@@ -27,7 +27,7 @@ affected a night, such as your period, and causes you write yourself, like sauna
 log a meal, to draw the day's meals),
 drinks and workouts, with the repetitions and weights you did and effort and pain after a session; how much energy you
 say you have on a day, if you answer Today's question about it; your answers to the training and
-sleep coaches; your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
+sleep coaches (with your shifts, if you turn on shift work); your food preferences, including allergies, the recipes you write yourself and the ones you have cooked lately; if you turn on *Follow
 your cycle*, the days of your period and the symptoms you log, which are deleted when you turn it off; and your goals (with the direction you choose and, toward a race, its date, sport and distance),
 the habits you choose to keep (with the days you kept them, your monthly answers on how automatic each feels, and
 the ones you let go), quiet mode (whether it is on, whether little energy turns it on, the habits you pick as most important on a quiet day, the days it
@@ -74,6 +74,12 @@ week's sessions where you have time. It reads only when this week's busy events 
 plan is made: never their titles, places, guests or which calendar they are in, and all-day events and events marked
 free are skipped. Nothing from the calendar is saved, put in your copy or sent anywhere. Turn it off in the coach, or
 take back access in the phone's settings.
+
+### Your alarm
+
+*Set the alarm* in the sleep coach opens your clock app with your wake-up goal filled in, and you save the alarm
+there. For this Novila has the permission to set an alarm, which Android gives at install. The alarm lives in the clock
+app: Novila reads nothing from it and sends nothing.
 
 ### Shared with no one
 
@@ -177,7 +183,7 @@ new version is published on this page, with its date above.
 
 ## Svenska
 
-*Uppdaterad 21 november 2026*
+*Uppdaterad 23 november 2026*
 
 Novila är byggd så att din hälsodata stannar hos dig. Den här policyn säger vad appen hanterar, var det sparas,
 vem som kan se det och vad du kan göra åt det.
@@ -188,7 +194,7 @@ Det du själv fyller i: ditt namn, födelseår, längd, vikt och kroppsmått, or
 till exempel mens, och orsaker du skriver själv, som bastu, med nätterna du markerar dem), kost (med måltiderna du skriver med egna ord och stjärnmärker, för snabbloggning, och klockslaget du
 loggar en måltid, för att rita dagens måltider), dryck och dina
 pass, med repetitionerna och vikterna du gjorde och ansträngning och smärta efter ett pass, hur mycket ork du säger att du
-har en dag, om du svarar på frågan om det på Idag, dina svar till tränings- och sömncoachen,
+har en dag, om du svarar på frågan om det på Idag, dina svar till tränings- och sömncoachen (med dina skift, om du slår på skiftarbete),
 dina matpreferenser, även allergier, recepten du själv skriver och de du har lagat på sistone, om du slår på *Mens och träning* även dina mensdagar
 och symtomen du loggar, som raderas när du stänger av den, och dina mål (med riktningen du väljer och, mot ett lopp, dess datum, gren och distans), vanorna du väljer att behålla (med dagarna
 du höll dem, dina svar varje månad om hur automatisk varje vana känns och de du har släppt), lugnt läge (om det är på,
@@ -239,6 +245,12 @@ pass där du har tid. Den läser bara när veckans upptagna händelser börjar o
 aldrig titel, plats, deltagare eller vilken kalender de ligger i, och heldagshändelser och händelser markerade som
 lediga hoppas över. Inget från kalendern sparas, kommer med i din kopia eller skickas någonstans. Stäng av det i
 coachen, eller ta tillbaka åtkomsten i telefonens inställningar.
+
+### Din väckarklocka
+
+*Ställ väckarklockan* i sömncoachen öppnar din klockapp med ditt uppvakningsmål ifyllt, och du sparar larmet där. För
+det har Novila behörigheten att ställa ett larm, som Android ger vid installationen. Larmet finns i klockappen: Novila
+läser inget därifrån och skickar inget.
 
 ### Delas inte med någon
 
